@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Buildings -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 1/28/2024 8:29:39 PM -->
+<GameData>
+	<!--创建建筑-->
+	<Types>
+		<Row Type="BUILDING_LUMEN_TRANSMUTATION_ENGINES" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_LUMEN_ALTAR" Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<!--设置建筑替代-->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_LUMEN_ALTAR" ReplacesBuildingType="BUILDING_TEMPLE"/>
+	</BuildingReplaces>
+	
+	<!--定义建筑名称、描述等等-->
+	<Buildings>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" 
+			 Name="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" 
+			 Description="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" 
+			 PrereqTech="TECH_ASTROLOGY" 
+			 PrereqDistrict="DISTRICT_HOLY_SITE" 
+			 PurchaseYield="YIELD_FAITH" 
+			 Cost="70" 
+			 AdvisorType="ADVISOR_RELIGIOUS" 
+			 Maintenance="1" 
+			 CitizenSlots="1"
+			 TraitType="TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES"/>
+
+		<Row BuildingType="BUILDING_LUMEN_ALTAR"
+			 Name="LOC_BUILDING_LUMEN_ALTAR_NAME"
+			 Description="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION"
+			 PrereqCivic="CIVIC_THEOLOGY"
+			 PrereqDistrict="DISTRICT_HOLY_SITE"
+			 PurchaseYield="YIELD_FAITH"
+			 Cost="1000"
+			 AdvisorType="ADVISOR_RELIGIOUS"
+			 Maintenance="2"
+			 CitizenSlots="1"
+			 RequiresReligion="1"		 
+			 TraitType="TRAIT_BUILDING_LUMEN_ALTAR"/>		
+	</Buildings>
+
+	<!--定义建筑前置-->
+	<BuildingPrereqs>
+		<Row Building="BUILDING_LUMEN_ALTAR" PrereqBuilding="BUILDING_SHRINE"/>
+	</BuildingPrereqs>
+	
+	<!--定义建筑产出-->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+	</Building_YieldChanges>
+	
+	<!--定义建筑伟人点数-->
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		
+	</Building_GreatPersonPoints>
+	
+	<!--定义建筑巨作槽位-->
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+	</Building_GreatWorks>
+	
+	<!--定义建筑市民产出-->
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_LUMEN_TRANSMUTATION_ENGINES" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_LUMEN_ALTAR" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+	</Building_CitizenYieldChanges>
+
+	<!--定义建筑可生产单位-->
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_LUMEN_TRANSMUTATION_ENGINES"/>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_LUMEN_ALTAR"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_LUMEN_ALTAR"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_LUMEN_ALTAR"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_LUMEN_ALTAR"/>
+	</Unit_BuildingPrereqs>
+	
+	
+</GameData>

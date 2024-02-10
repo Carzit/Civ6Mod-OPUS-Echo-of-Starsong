@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Colors -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/27/2024 12:18:52 AM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_EDA_PRIMARY</Type>
+			<Color>232,232,232,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_EDA_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_EDA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_EDA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_EDA_SECONDARY</SecondaryColor>
+
+		</Row>
+	</PlayerColors>
+</GameData>

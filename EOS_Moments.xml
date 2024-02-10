@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Moments -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 2/8/2024 1:54:13 PM -->
+<GameData>
+	<MomentIllustrations>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_DISTRICT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_DISTRICT</MomentDataType>
+			<GameDataType>DISTRICT_LUMEN</GameDataType>
+			<Texture>MOMENT_LUMEN_BUILT</Texture>
+		</Row>
+	</MomentIllustrations>
+	<MomentIllustrations>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
+			<GameDataType>BUILDING_LUMEN_TRANSMUTATION_ENGINES</GameDataType>
+			<Texture>MOMENT_LUMEN_TRANSMUTATION_ENGINES_BUILT</Texture>
+		</Row>
+	</MomentIllustrations>
+	<MomentIllustrations>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
+			<GameDataType>BUILDING_LUMEN_ALTAR</GameDataType>
+			<Texture>MOMENT_LUMEN_ALTAR_BUILT</Texture>
+		</Row>
+	</MomentIllustrations>
+</GameData>

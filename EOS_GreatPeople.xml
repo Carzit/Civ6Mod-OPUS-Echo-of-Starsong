@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatPeople -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/30/2024 11:14:22 PM -->
+<GameData>
+	
+	<!--创建单位、伟人种类、伟人个体-->
+	<Types>
+		<Row Type="UNIT_ECHOOFSTARSONG_WITCH" Kind="KIND_UNIT"/>
+		<Row Type="GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH" Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_EDA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+
+		<Row Type="UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER" Kind="KIND_UNIT"/>
+		<Row Type="GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER" Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JUN_LEE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	
+	<!--定义单位-->
+	<Units>
+		<!--女巫-->
+		<Row UnitType="UNIT_ECHOOFSTARSONG_WITCH" 
+			 Cost="0" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" 
+			 Name="LOC_UNIT_ECHOOFSTARSONG_WITCH_NAME" Description="LOC_UNIT_ECHOOFSTARSONG_WITCH_DESCRIPTION" 
+			 CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<!--龙脉探索者-->
+		<Row UnitType="UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER"
+			 Cost="1" BaseMoves="4" BaseSightRange="3"
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN"
+			 Name="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME" Description="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_DESCRIPTION"
+			 CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+	
+	</Units>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_ECHOOFSTARSONG_WITCH" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_ECHOOFSTARSONG_WITCH" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	
+	<!--基于单位模板定义伟人种类-->
+	<!--艾妲-->
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH" 
+			 Name="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH_NAME" 
+			 UnitType="UNIT_ECHOOFSTARSONG_WITCH" 
+			 DistrictType="DISTRICT_LUMEN" 
+			 AvailableInTimeline="false" 
+			 GenerateDuplicateIndividuals="true"  
+			 PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" 
+			 IconString="ICON_LEADER_EDA" 
+			 ActionIcon="ICON_UNITOPERATION_MUSICIAN_ACTION"/>
+	</GreatPersonClasses>
+	<!--李莫-->
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER"
+			 Name="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME"
+			 UnitType="UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER"
+			 DistrictType="DISTRICT_LUMEN"
+			 AvailableInTimeline="false"
+			 GenerateDuplicateIndividuals="true"
+			 PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN"
+			 IconString="ICON_LEADER_EDA"
+			 ActionIcon="ICON_UNITOPERATION_MUSICIAN_ACTION"/>
+	</GreatPersonClasses>
+
+	<!--基于伟人种类定义伟人个体-->
+	<!--艾妲-->
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_EDA_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH"
+			 ActionCharges="0"
+			 ActionRequiresCompletedDistrictType="DISTRICT_LUMEN"
+			 EraType="ERA_RENAISSANCE" 
+			 Gender="F" />
+	<!--李莫-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JUN_LEE" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER" 
+			 EraType="ERA_RENAISSANCE" 
+			 Gender="M" 
+			 ActionCharges="9" 
+			 ActionRequiresCompletedDistrictType="DISTRICT_LUMEN" 
+			 ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_ACTIVE"/>
+	</GreatPersonIndividuals>
+
+	<!--伟人激活效果-->
+	<!--李莫 给予1个遗物槽位-->
+	<GreatPersonIndividualActionModifiers>
+		<Row>
+			<GreatPersonIndividualType>GREAT_PERSON_INDIVIDUAL_JUN_LEE</GreatPersonIndividualType>
+			<ModifierId>JUN_LEE_ADD_RELIC_SLOT</ModifierId>
+		</Row>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>JUN_LEE_ADD_RELIC_SLOT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>JUN_LEE_ADD_RELIC_SLOT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>JUN_LEE_ADD_RELIC_SLOT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LUMEN_TRANSMUTATION_ENGINES</Value>
+		</Row>
+		<Row>
+			<ModifierId>JUN_LEE_ADD_RELIC_SLOT</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_RELIC</Value>
+		</Row>
+	</ModifierArguments>
+	<!--李莫 加速龙脉神坛建造-->
+	<GreatPersonIndividualActionModifiers>
+		<Row>
+			<GreatPersonIndividualType>GREAT_PERSON_INDIVIDUAL_JUN_LEE</GreatPersonIndividualType>
+			<ModifierId>JUN_LEE_BUILD_LUMEN_ALTAR</ModifierId>
+			<AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE</AttachmentTargetType>
+		</Row>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>JUN_LEE_BUILD_LUMEN_ALTAR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>JUN_LEE_BUILD_LUMEN_ALTAR</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

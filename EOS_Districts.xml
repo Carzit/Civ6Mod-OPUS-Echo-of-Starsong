@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Districts -->
+<!-- Author: Carzit-->
+<!-- DateCreated: 1/27/2024 12:08:34 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_LUMEN" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_MYRIAN_IGNIS_GUILD" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_LUMEN" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+		<Row CivUniqueDistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" ReplacesDistrictType="DISTRICT_THEATER"/>
+		<Row CivUniqueDistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+	</DistrictReplaces>
+	
+	<!--特殊区域定义-->
+
+	<Districts>
+		<Row>
+			<!--区域类型、名称、描述-->
+			<DistrictType>DISTRICT_LUMEN</DistrictType>
+			<Name>LOC_DISTRICT_LUMEN_NAME</Name>
+			<Description>LOC_DISTRICT_LUMEN_DESCRIPTION</Description>
+			<!--掠夺产出类型、数值-->
+			<PlunderType>PLUNDER_FAITH</PlunderType>
+			<PlunderAmount>25</PlunderAmount>
+			<!--通用建议类型-->
+			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
+			<!--区域建造花费与膨胀-->
+			<Cost>30</Cost>
+			<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
+			<CostProgressionParam1>15</CostProgressionParam1>			
+			<!--允许作为圣城（创立宗教）-->
+			<AllowsHolyCity>true</AllowsHolyCity>			
+			<!--需要放置-->
+			<RequiresPlacement>true</RequiresPlacement>			
+			<!--人口限制-->
+			<RequiresPopulation>false</RequiresPopulation>						
+			<Aqueduct>false</Aqueduct>
+			<NoAdjacentCity>false</NoAdjacentCity>
+			<InternalOnly>false</InternalOnly>
+			<ZOC>true</ZOC>
+			<CaptureRemovesBuildings>false</CaptureRemovesBuildings>
+			<Entertainment>1</Entertainment>
+			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
+			<Appeal>5</Appeal>
+			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
+			<Housing>2</Housing>
+			<TravelTime>3</TravelTime>
+			<CityStrengthModifier>6</CityStrengthModifier>
+			<Maintenance>0</Maintenance>		
+			<!--前置科技-->
+			<PrereqTech>TECH_ASTROLOGY</PrereqTech>
+			<!--特色-->
+			<TraitType>TRAIT_DISTRICT_LUMEN</TraitType>
+		</Row>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" 
+			 Name="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" 
+			 Description="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" 
+			 PrereqCivic="CIVIC_DRAMA_POETRY" 
+			 PlunderType="PLUNDER_CULTURE" 
+			 PlunderAmount="25" 
+			 AdvisorType="ADVISOR_CULTURE" 
+			 Cost="30" 
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="15" 
+			 Maintenance="1" 
+			 RequiresPlacement="true" 
+			 RequiresPopulation="true" 
+			 Aqueduct="false" 
+			 NoAdjacentCity="false" 
+			 InternalOnly="false" 
+			 ZOC="false" 
+			 CaptureRemovesBuildings="false" 
+			 CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="NO_DOMAIN" 
+			 Appeal="1" 
+			 CityStrengthModifier="2" 
+			 TraitType="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" 
+			 Name="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" 
+			 Description="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION" 
+			 PrereqTech="TECH_CURRENCY" 
+			 PlunderType="PLUNDER_GOLD" 
+			 PlunderAmount="50" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Cost="30" 
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="15" 
+			 RequiresPlacement="true" 
+			 RequiresPopulation="true" 
+			 Aqueduct="false" 
+			 NoAdjacentCity="false" 
+			 InternalOnly="false" 
+			 ZOC="false" 
+			 CaptureRemovesBuildings="false" 
+			 CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="NO_DOMAIN" 
+			 TravelTime="3" 
+			 CityStrengthModifier="2"
+			 TraitType="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD"/>/>
+
+	</Districts>
+	
+	<!--伟人点数给予-->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_LUMEN" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_LUMEN" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+	
+	<!--公民产出修正-->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</District_CitizenYieldChanges>
+
+	
+	<!--商路产出修正-->
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="4"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+
+
+	</District_TradeRouteYields>
+
+	<Adjacency_YieldChanges>
+		<!--自身加成定义-->
+		<Row ID="NaturalWonder_LUMEN_Faith" Description="LOC_DISTRICT_NATURALWONDER_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="4" TilesRequired="1" AdjacentNaturalWonder="true"/>
+		<Row ID="Mountain_LUMEN_Faith1" Description="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ID="Mountain_LUMEN_Faith2" Description="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ID="Mountain_LUMEN_Faith3" Description="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="Mountain_LUMEN_Faith4" Description="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ID="Mountain_LUMEN_Faith5" Description="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>		
+		
+		<!--其他区域加成定义-->
+		<Row ID="LUMEN_Science" Description="LOC_DISTRICT_LUMEN_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_LUMEN"/>
+		<Row ID="LUMEN_Culture" Description="LOC_DISTRICT_LUMEN_CULTURE" YieldType="YIELD_CULTURE" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_LUMEN"/>
+		<Row ID="LUMEN_Gold" Description="LOC_DISTRICT_LUMEN_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_LUMEN"/>
+		<Row ID="LUMEN_Production" Description="LOC_DISTRICT_LUMEN_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_LUMEN"/>
+	</Adjacency_YieldChanges>
+	
+	<!--临近产出修正-->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="NaturalWonder_LUMEN_Faith"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="Mountain_LUMEN_Faith1"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="Mountain_LUMEN_Faith2"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="Mountain_LUMEN_Faith3"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="Mountain_LUMEN_Faith4"/>
+		<Row DistrictType="DISTRICT_LUMEN" YieldChangeId="Mountain_LUMEN_Faith5"/>
+
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldChangeId="Wonder_Culture"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldChangeId="District_Culture_Standard"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldChangeId="District_Culture_City_Center"/>
+		<Row DistrictType="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" YieldChangeId="LUMEN_Culture"/>
+
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldChangeId="River_Gold"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldChangeId="Harbor_Gold"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_MYRIAN_IGNIS_GUILD" YieldChangeId="LUMEN_Gold"/>
+
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="LUMEN_Science"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="LUMEN_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="LUMEN_Gold"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="LUMEN_Culture"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="LUMEN_Production"/>
+	</District_Adjacencies>
+
+	<!--龙脉建成后所在城市不受其他文明宗教压力影响-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_LUMEN</DistrictType>
+			<ModifierId>MYRIAN_GODS_IGNORE_RELIGION_PRESSURE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_GODS_IGNORE_RELIGION_PRESSURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGION_IGNORE_PRESSURE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_GODS_IGNORE_RELIGION_PRESSURE</ModifierId>
+			<Name>Enable</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!--群山艺术基金会建成后奖励两个使者-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION</DistrictType>
+			<ModifierId>THOUSAND_PEAKS_ART_FOUNDATION_GRANT_INFLUENCE_TOKEN</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>THOUSAND_PEAKS_ART_FOUNDATION_GRANT_INFLUENCE_TOKEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>THOUSAND_PEAKS_ART_FOUNDATION_GRANT_INFLUENCE_TOKEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<!--万道烛龙商会建成后奖励一条商路-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_MYRIAN_IGNIS_GUILD</DistrictType>
+			<ModifierId>MYRIAN_IGNIS_GUILD_ADD_TRADE_ROUTE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_IGNIS_GUILD_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_IGNIS_GUILD_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

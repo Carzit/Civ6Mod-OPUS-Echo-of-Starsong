@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Units -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/25/2024 9:02:02 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_TURTLEDOVE" Kind="KIND_UNIT" />
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_TURTLEDOVE" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	
+	<!--设置单位替代-->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_TURTLEDOVE" ReplacesUnitType="UNIT_SPY"/>
+	</UnitReplaces>
+	
+	<!--定义单位类型-->
+	<TypeTags>
+		<Row Type="UNIT_TURTLEDOVE" Tag="CLASS_SPY"/>
+	</TypeTags>
+	
+	<!--设置单位参数-->
+	<Units>
+		<Row UnitType="UNIT_TURTLEDOVE" Cost="100" Maintenance="0" BaseMoves="1" BaseSightRange="5" ZoneOfControl="false" 
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" PromotionClass="PROMOTION_CLASS_SPY" AdvisorType="ADVISOR_TECHNOLOGY" 
+			 Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" CanCapture="False" 
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="75" PseudoYieldType="PSEUDOYIELD_UNIT_SPY" 
+			 IgnoreMoves="true" NumRandomChoices="3" Spy="true" TeamVisibility="true" TraitType="TRAIT_UNIT_TURTLEDOVE"/>
+	</Units>
+
+</GameData>

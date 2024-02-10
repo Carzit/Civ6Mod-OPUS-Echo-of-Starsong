@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Greatworks -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 1/29/2024 11:57:22 AM -->
+<GameData>
+	<!--创建巨作-->
+	<Types>
+		<Row Type="GREATWORK_STARSONG_01" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_02" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_03" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_04" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_05" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_06" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_07" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_STARSONG_08" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_LUMEN_FLOWER_01" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_LUMEN_FLOWER_02" Kind="KIND_GREATWORK"/>
+	</Types>
+
+	<!--定义巨作种类、伟人、名称、图像、（音频）、引言-->
+	<GreatWorks>
+		<!--MUSICs-->
+		<Row GreatWorkType="GREATWORK_STARSONG_01" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA" 
+			 Name="LOC_GREATWORK_STARSONG_01_NAME" Image="STARSONG_01" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_02" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_02_NAME" Image="STARSONG_02" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_03" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_03_NAME" Image="STARSONG_03" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_04" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_04_NAME" Image="STARSONG_04" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_05" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_05_NAME" Image="STARSONG_05" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_06" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_06_NAME" Image="STARSONG_06" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_07" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_07_NAME" Image="STARSONG_07" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_08" GreatWorkObjectType="GREATWORKOBJECT_STARSONG" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_STARSONG_08_NAME" Image="STARSONG_08" Tourism="8"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_01" GreatWorkObjectType="GREATWORKOBJECT_LUMEN_FLOWER" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EDA"
+			 Name="LOC_GREATWORK_LUMEN_FLOWER_01_NAME" Image="LUMEN_FLOWER_01" Tourism="-64"/>
+
+	</GreatWorks>
+	<!--
+	<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_02" GreatWorkObjectType="GREATWORKOBJECT_LUMEN_FLOWER" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JUN_LEE"
+	 Name="LOC_GREATWORK_LUMEN_FLOWER_02_NAME" Image="LUMEN_FLOWER_02" Tourism="-32"/>
+	 -->
+	
+	<!--定义巨作产出-->
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_STARSONG_01" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_01" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_01" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_01" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		
+		<Row GreatWorkType="GREATWORK_STARSONG_02" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_02" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_02" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_02" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+			
+		<Row GreatWorkType="GREATWORK_STARSONG_03" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_03" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_03" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_03" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		
+		<Row GreatWorkType="GREATWORK_STARSONG_04" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_04" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_04" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_04" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row GreatWorkType="GREATWORK_STARSONG_05" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_05" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_05" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_05" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row GreatWorkType="GREATWORK_STARSONG_06" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_06" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_06" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_06" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row GreatWorkType="GREATWORK_STARSONG_07" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_07" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_07" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_07" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+		<Row GreatWorkType="GREATWORK_STARSONG_08" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_08" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_08" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_STARSONG_08" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_01" YieldType="YIELD_FAITH" YieldChange="-18"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_01" YieldType="YIELD_CULTURE" YieldChange="-18"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_01" YieldType="YIELD_GOLD" YieldChange="-18"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_01" YieldType="YIELD_PRODUCTION" YieldChange="-18"/>
+
+		
+	</GreatWork_YieldChanges>
+	
+	<!--<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_02" YieldType="YIELD_FAITH" YieldChange="-9"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_02" YieldType="YIELD_CULTURE" YieldChange="-9"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_02" YieldType="YIELD_GOLD" YieldChange="-9"/>
+		<Row GreatWorkType="GREATWORK_LUMEN_FLOWER_02" YieldType="YIELD_PRODUCTION" YieldChange="-9"/>-->
+	
+</GameData>

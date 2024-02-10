@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Civilization -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/25/2024 9:12:24 PM -->
+<GameData>
+	<TYPES>
+		<!-- 创建文明-->
+		<Row Type="CIVILIZATION_ECHOOFSTARSONG" Kind="KIND_CIVILIZATION"/>
+		<!-- 创建文明特色能力-->
+		<Row Type="TRAIT_CIVILIZATION_ECHOOFSTARSONG" Kind="KIND_TRAIT"/>
+		
+		<!-- 创建文明特色单位-->
+		<Row Type="TRAIT_UNIT_TURTLEDOVE" Kind="KIND_TRAIT"/>
+		<!-- 创建文明特色区域-->
+		<Row Type="TRAIT_DISTRICT_LUMEN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD" Kind="KIND_TRAIT"/>
+		<!-- 创建文明特色建筑-->
+		<Row Type="TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_LUMEN_ALTAR" Kind="KIND_TRAIT"/>
+		<!-- 创建文明特色总督-->
+		<Row Type="TRAIT_GOVERNOR_REMI" Kind="KIND_TRAIT"/>
+	</TYPES>
+
+	<!-- 定义文明基本属性（名称、描述、形容词、文明类型、城市随机深度、种族）-->
+	<Civilizations>	
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" Name="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" 
+			 Description="LOC_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" Adjective="LOC_CIVILIZATION_ECHOOFSTARSONG_ADJECTIVE"
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
+			 RandomCityNameDepth="10"
+			 Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	
+	<!-- 绑定文明与领袖、首都-->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" CapitalName="LOC_CITY_NAME_RED_CHAMBER"/>
+	</CivilizationLeaders>
+
+	<!-- 定义特色单位、区域、建筑、总督 的名称与描述-->
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_TURTLEDOVE" Name="LOC_TRAIT_UNIT_TURTLEDOVE_NAME" Description="LOC_TRAIT_UNIT_TURTLEDOVE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_LUMEN" Name="LOC_TRAIT_DISTRICT_LUMEN_NAME" Description="LOC_TRAIT_DISTRICT_LUMEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Name="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Description="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD" Name="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Description="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES" 
+			 Name="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" 
+			 Description="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_LUMEN_ALTAR"
+					 Name="LOC_TRAIT_BUILDING_LUMEN_ALTAR_NAME"
+					 Description="LOC_TRAIT_BUILDING_LUMEN_ALTAR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_GOVERNOR_REMI" Name="LOC_TRAIT_GOVERNOR_REMI_NAME" Description="LOC_TRAIT_GOVERNOR_REMI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ECHOOFSTARSONG" Name="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME" Description="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION"/>
+	</Traits>
+	
+	<!-- 绑定特色与文明-->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_UNIT_TURTLEDOVE"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_LUMEN"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_BUILDING_LUMEN_ALTAR"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_GOVERNOR_REMI"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_CIVILIZATION_ECHOOFSTARSONG"/>
+	</CivilizationTraits>
+	
+	<!--为文明创建城市名称和市民名称-->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_RED_CHAMBER"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_GUIFANG"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_RODIN"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_SILK_OASIS"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_LUMEN_ZIGGURATE"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_MOUNT_AURORA"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_IRONWIND"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_MYRIAN_WITCHING_TOWER"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_BLACK_HOLE_OBSERVATORY_VII"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_BANSHEE"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CityName="LOC_CITY_NAME_PHOENIX"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_MALE1"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_MALE2"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_MALE3"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_MALE4"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE1"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE2"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE3"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" CitizenName="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE4"/>	
+	</CivilizationCitizenNames>
+	
+	<!--加载界面设置-->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_EDA" 
+			 ForegroundImage="IMG_LOADING_FOREGROUND" 
+			 BackgroundImage="IMG_LOADING_BACKGROUND" 
+			 PlayDawnOfManAudio="0" 
+			 EraText="LOC_LOADING_INFO_LEADER_DEFAULT" 
+			 LeaderText="LOC_LOADING_INFO_LEADER_EDA"/>
+	</LoadingInfo>
+	<!--外交界面设置-->
+	<DiplomacyInfo>
+		<Row Type="LEADER_EDA" BackgroundImage="IMG_DIPLOMACY_BACKGROUND"/>
+	</DiplomacyInfo>
+
+	<!--文明能力 万道诸神-->
+	<!--效果1 初始解锁占星术-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ECHOOFSTARSONG</TraitType>
+			<ModifierId>MYRIAN_GODS_HAS_TECH_ASTROLOGY</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_GODS_HAS_TECH_ASTROLOGY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_GODS_HAS_TECH_ASTROLOGY</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ASTROLOGY</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--效果2 建成龙脉的城市，忽视宗教压力-->
+
+	<!--效果3 增加2个通配符槽位-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ECHOOFSTARSONG</TraitType>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT1</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT1</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ECHOOFSTARSONG</TraitType>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT2</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_GODS_WILDCARD_SLOT2</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameData>

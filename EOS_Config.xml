@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Configs -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/26/2024 12:07:26 PM -->
+<GameData>
+	<Players>
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME" 
+			 CivilizationIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationName="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" CivilizationType="CIVILIZATION_ECHOOFSTARSONG" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_EDA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_EDA" LeaderAbilityName="LOC_TRAIT_LEADER_EDA_NAME" 
+			 LeaderIcon="ICON_LEADER_EDA" LeaderName="LOC_LEADER_EDA_NAME" LeaderType="LEADER_EDA" 
+			 Portrait="IMG_EDA_FOREGROUND"/>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationName="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" CivilizationType="CIVILIZATION_ECHOOFSTARSONG"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_EDA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_EDA" LeaderAbilityName="LOC_TRAIT_LEADER_EDA_NAME"
+			 LeaderIcon="ICON_LEADER_EDA" LeaderName="LOC_LEADER_EDA_NAME" LeaderType="LEADER_EDA"
+			 Portrait="IMG_EDA_FOREGROUND" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_ECHOOFSTARSONG" CivilizationName="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" CivilizationType="CIVILIZATION_ECHOOFSTARSONG"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_EDA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_EDA" LeaderAbilityName="LOC_TRAIT_LEADER_EDA_NAME"
+			 LeaderIcon="ICON_LEADER_EDA" LeaderName="LOC_LEADER_EDA_NAME" LeaderType="LEADER_EDA"
+			 Portrait="IMG_EDA_FOREGROUND" Domain="Players:Expansion2_Players"/>
+	</Players>
+	
+	<PlayerItems>
+		<!--特色区域介绍-->
+		<!--龙脉-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_LUMEN" Name="LOC_DISTRICT_LUMEN_NAME" Description="LOC_DISTRICT_LUMEN_DESCRIPTION" Icon="ICON_DISTRICT_LUMEN" SortIndex="1"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_LUMEN" Name="LOC_DISTRICT_LUMEN_NAME" Description="LOC_DISTRICT_LUMEN_DESCRIPTION" Icon="ICON_DISTRICT_LUMEN" SortIndex="1"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_LUMEN" Name="LOC_DISTRICT_LUMEN_NAME" Description="LOC_DISTRICT_LUMEN_DESCRIPTION" Icon="ICON_DISTRICT_LUMEN" SortIndex="1"/>
+		<!--特色区域介绍-->
+		<!--群山艺术基金会-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Name="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" 
+			 Description="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" 
+			 Icon="ICON_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" SortIndex="2"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Name="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" 
+			 Description="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" 
+			 Icon="ICON_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" SortIndex="2"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Name="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" 
+			 Description="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" 
+			 Icon="ICON_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" SortIndex="2"/>
+		<!--特色区域介绍-->
+		<!--万道烛龙商会-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_MYRIAN_IGNIS_GUILD" Name="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME"
+			 Description="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION"
+			 Icon="ICON_DISTRICT_MYRIAN_IGNIS_GUILD" SortIndex="3"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_MYRIAN_IGNIS_GUILD" Name="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME"
+			 Description="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION"
+			 Icon="ICON_DISTRICT_MYRIAN_IGNIS_GUILD" SortIndex="3"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="DISTRICT_MYRIAN_IGNIS_GUILD" Name="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME"
+			 Description="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION"
+			 Icon="ICON_DISTRICT_MYRIAN_IGNIS_GUILD" SortIndex="3"/>
+
+		<!--特色建筑介绍-->
+		<!--龙脉风水机关-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_TRANSMUTATION_ENGINES" 
+			 Name="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" 
+			 Description="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" 
+			 Icon="ICON_BUILDING_LUMEN_TRANSMUTATION_ENGINES" 
+			 SortIndex="4"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_TRANSMUTATION_ENGINES"
+			 Name="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME"
+			 Description="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION"
+			 Icon="ICON_BUILDING_LUMEN_TRANSMUTATION_ENGINES"
+			 SortIndex="4"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_TRANSMUTATION_ENGINES"
+			 Name="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME"
+			 Description="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION"
+			 Icon="ICON_BUILDING_LUMEN_TRANSMUTATION_ENGINES"
+			 SortIndex="4"/>
+		
+		<!--龙脉神坛-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_ALTAR"
+			 Name="LOC_BUILDING_LUMEN_ALTAR_NAME"
+			 Description="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION"
+			 Icon="ICON_BUILDING_LUMEN_ALTAR"
+			 SortIndex="5"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_ALTAR"
+			 Name="LOC_BUILDING_LUMEN_ALTAR_NAME"
+			 Description="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION"
+			 Icon="ICON_BUILDING_LUMEN_ALTAR"
+			 SortIndex="5"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="BUILDING_LUMEN_ALTAR"
+			 Name="LOC_BUILDING_LUMEN_ALTAR_NAME"
+			 Description="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION"
+			 Icon="ICON_BUILDING_LUMEN_ALTAR"
+			 SortIndex="5"/>
+		
+		
+
+		<!--特色单位介绍-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" 
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" 
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+	</PlayerItems>
+</GameData>

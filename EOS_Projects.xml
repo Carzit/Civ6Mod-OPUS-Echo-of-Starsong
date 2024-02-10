@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Projects -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 2/6/2024 7:29:08 PM -->
+<GameData>
+	<!--创建项目类型-->
+	<Types>
+		<Row Type="PROJECT_MYRIAN_MYTHOLOGY" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_MELODY_OF_STARSONG_ACT1" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_MELODY_OF_STARSONG_ACT2" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_MELODY_OF_STARSONG_ACT3" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_MEETING_OF_EDA_AND_JUN" Kind="KIND_PROJECT"/>
+	</Types>
+	
+	<!--定义项目类型-->
+	<Projects>
+		<!--万道神话研究-->
+		<Row ProjectType="PROJECT_MYRIAN_MYTHOLOGY" 
+			 Name="LOC_PROJECT_MYRIAN_MYTHOLOGY_NAME" 
+			 ShortName="LOC_PROJECT_MYRIAN_MYTHOLOGY_SHORT_NAME" 
+			 Description="LOC_PROJECT_MYRIAN_MYTHOLOGY_DESCRIPTION" 
+			 Cost="100" 
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="50"
+			 PrereqDistrict="DISTRICT_LUMEN"
+			 RequiredBuilding="BUILDING_LUMEN_ALTAR"			 
+			 PrereqCivic="CIVIC_RECORDED_HISTORY"/>
+		<!--水豚商人与龙脉情报-->
+		<Row ProjectType="PROJECT_MEETING_OF_EDA_AND_JUN"
+			 Name="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_NAME"
+			 ShortName="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_SHORT_NAME"
+			 Description="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_DESCRIPTION"
+			 Cost="100"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="100"
+			 PrereqDistrict="DISTRICT_MYRIAN_IGNIS_GUILD"
+			 MaxPlayerInstances="1"/>
+	</Projects>
+	
+	<!--项目进行时每回合产出-->
+	<Project_YieldConversions>
+		<Row ProjectType="PROJECT_MYRIAN_MYTHOLOGY" YieldType="YIELD_FAITH" PercentOfProductionRate="100"/>
+	</Project_YieldConversions>
+	<Project_YieldConversions>
+		<Row ProjectType="PROJECT_MEETING_OF_EDA_AND_JUN" YieldType="YIELD_GOLD" PercentOfProductionRate="-100"/>
+	</Project_YieldConversions>
+
+	<!--项目完成后效果-->
+	<!--万道神话研究 获得一个遗物-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MYRIAN_MYTHOLOGY</ProjectType>
+			<ModifierId>MYRIAN_MYTHOLOGY_GRANT_RELIC</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYRIAN_MYTHOLOGY_GRANT_RELIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RELIC</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYRIAN_MYTHOLOGY_GRANT_RELIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--水豚商人与龙脉情报 外交能见度+1-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MEETING_OF_EDA_AND_JUN</ProjectType>
+			<ModifierId>MEETING_OF_EDA_AND_JUN_ADD_DIPLO_VISIBILITY</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MEETING_OF_EDA_AND_JUN_ADD_DIPLO_VISIBILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MEETING_OF_EDA_AND_JUN_ADD_DIPLO_VISIBILITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEETING_OF_EDA_AND_JUN_ADD_DIPLO_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_GREAT_PERSON_JOURNALISM</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEETING_OF_EDA_AND_JUN_ADD_DIPLO_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
+		</Row>
+	</ModifierArguments>
+	
+	
+</GameData>

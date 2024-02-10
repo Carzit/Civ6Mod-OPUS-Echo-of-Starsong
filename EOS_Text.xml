@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Text -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/26/2024 8:31:34 PM -->
+<GameData>
+	<LocalizedText>
+		<!--文明相关-->
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME" Language="zh_Hans_CN">
+			<Text>万道诸神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始拥有占星术科技。拥有“龙脉”区域的城市不会受到其他文明的宗教压力。給予2个额外通配符政策槽。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EDA_NAME" Language="zh_Hans_CN">
+			<Text>红楼船组</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				所有单位视野+2，移动力+1。[NEWLINE]
+				拥有一位专属总督菈米亚。[NEWLINE]
+				完成市政“法典”后获得伟人“李莫”，完成项目“水獭商人与龙脉情报”后获得伟人“艾妲”。[NEWLINE]
+				伟人“李莫”可以在建有“龙脉风水机关”的“龙脉”区域激活龙鸣仿声器打开龙门，直接完成建筑“龙脉神坛”建造。（上限8次）[NEWLINE]
+				伟人“艾妲拉姆·葛兰特”，能在建有“龙脉神坛”的“龙脉”区域进行歌唱，以获得巨作“女巫的龙鸣”（上限8次）[NEWLINE]
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" Language="zh_Hans_CN">
+			<Text>龙脉常歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>艾妲领导的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>红楼船组</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_EDA_NAME" Language="zh_Hans_CN">
+			<Text>艾妲</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_EDA_QUOTE" Language="zh_Hans_CN">
+			<Text>你会想看花海吗？海喔，像海一样</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_EDA" Language="zh_Hans_CN">
+			<Text>
+				如果有那么一天，红楼有机会离开群山，旅行回我的家乡。[NEWLINE]
+				我一定会带你去看看，那我心爱的地方。[NEWLINE]
+				与你的故乡不同，那里一年四季……总是开满花。
+			</Text>
+		</Replace>
+		
+		
+
+		<!--文明特色单位相关-->
+		<Replace Tag="LOC_UNIT_TURTLEDOVE_NAME" Language="zh_Hans_CN">
+			<Text>斑鸠</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_TURTLEDOVE_NAME" Language="zh_Hans_CN">
+			<Text>斑鸠</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿业联合行星商业议会的要人，玩世不恭的他因为接触暗网，巧遇同为黑客的菈米亚，受她影响的他因此见证了矿联的各种恶行，终于对自己的贵族身份感到惭愧，全心投入反对运动，与家族抗衡。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_TURTLEDOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿业联合行星商业议会的要人，玩世不恭的他因为接触暗网，巧遇同为黑客的菈米亚，受她影响的他因此见证了矿联的各种恶行，终于对自己的贵族身份感到惭愧，全心投入反对运动，与家族抗衡。</Text>
+		</Replace>
+
+		<!--文明特色区域相关-->
+		<Replace Tag="LOC_DISTRICT_LUMEN_NAME" Language="zh_Hans_CN">
+			<Text>龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_LUMEN_NAME" Language="zh_Hans_CN">
+			<Text>龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代圣地。建造费用更低且不受人口限制。
+				不再从树林获得相邻加成，但从山脉或自然奇观获得更多相邻加成。
+				为相邻的学院提供2点[icon_SCIENCE]、为相邻的群山艺术基金会提供2点[icon_CULTURE]、为相邻的万道烛龙商会提供2点[icon_GOLD]、为相邻的工业区提供4点[icon_PRODUCTION]。
+				每回合给予2点大预言家点数和2点大音乐家点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_LUMEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代圣地。建造费用更低且不受人口限制。
+				不再从树林获得相邻加成，但从山脉或自然奇观获得更多相邻加成。为相邻的区域提供大量相邻加成。
+				每回合给予2点大预言家点数和2点大音乐家点数。			
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Language="zh_Hans_CN">
+			<Text>群山艺术基金会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Language="zh_Hans_CN">
+			<Text>群山艺术基金会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代剧院广场。建造费用更低，建成后奖励2名[ICON_Envoy]使者。
+				每个相邻市中心为其提供1点[ICON_Culture]。每个相邻区域为其提供1点[ICON_Culture]。每个相邻奇观和为其提供2点[ICON_Culture]文化值加成。
+				每回合给予2点大作家点数和2点大艺术家点数，但不提供大音乐家点数。
+				可执行特色项目“龙脉长歌·上”、“龙脉长歌·中”和“龙脉长歌·下”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代剧院广场。建造费用更低，建成后奖励2名[ICON_Envoy]使者。
+				每回合给予2点大作家点数和2点大艺术家点数，但不提供大音乐家点数。
+				可执行特色项目“龙脉长歌·上”、“龙脉长歌·中”和“龙脉长歌·下”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>万道烛龙商会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>万道烛龙商会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代商业中心。建造费用更低，建成后奖励1条[ICON_TradeRoute]贸易路线。
+				每回合给予2点大商人点数。
+				可执行特色项目“水獭商人与龙脉情报”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代剧院广场。建造费用更低，建成后奖励2名[ICON_Envoy]使者。
+				每回合给予2点大作家点数和2点大艺术家点数，但不提供大音乐家点数。
+				可执行特色项目“龙脉长歌·上”、“龙脉长歌·中”和“龙脉长歌·下”。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DISTRICT_NATURALWONDER_LUMEN_FAITH" Language="zh_Hans_CN">
+			<Text>+4 [icon_FAITH] 来自相邻自然奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" Language="zh_Hans_CN">
+			<Text>+2 [icon_FAITH] 来自相邻山脉单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_SCIENCE" Language="zh_Hans_CN">
+			<Text>+2 [icon_SCIENCE]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_CULTURE" Language="zh_Hans_CN">
+			<Text>+2 [icon_CULTURE]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_GOLD" Language="zh_Hans_CN">
+			<Text>+2 [icon_GOLD]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+4 [icon_PRODUCTION]来自相邻的龙脉</Text>
+		</Replace>
+		
+		<!--文明特色建筑相关 -->
+		<!--龙脉风水机关-->
+		<Replace Tag="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" Language="zh_Hans_CN">
+			<Text>龙脉风水机关</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" Language="zh_Hans_CN">
+			<Text>龙脉风水机关</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代神社。可用信仰购买。提供2点[icon_FAITH]和2点[icon_PRODUCTION]。每回合给予1点大预言家点数和2点大工程师点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代神社。可用信仰购买。额外提供[icon_PRODUCTION]和大工程师点数。
+			</Text>
+		</Replace>
+		<!--龙脉神坛-->
+		<Replace Tag="LOC_BUILDING_LUMEN_ALTAR_NAME" Language="zh_Hans_CN">
+			<Text>龙脉神坛</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_ALTAR_NAME" Language="zh_Hans_CN">
+			<Text>龙脉神坛</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代寺庙。“神学”市政解锁。文明没有宗教时无法建造，且建造需耗费大量生产力或信仰。可执行特色项目“万道神话研究”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_ALTAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代寺庙。文明没有宗教时无法建造，且建造需耗费大量生产力或信仰。可执行特色项目“万道神话研究”。
+			</Text>
+		</Replace>
+		
+		<!--文明项目相关-->
+		<!--万道神话研究-->
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_NAME" Language="zh_Hans_CN">
+			<Text>万道神话研究</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>万道神话研究</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目，每回合提供大量[ICON_Faith]，完成后提供一件遗物。
+			</Text>
+		</Replace>
+		<!--水豚商人与龙脉情报-->
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_NAME" Language="zh_Hans_CN">
+			<Text>水豚商人与龙脉情报</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>水豚商人与龙脉情报</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目。只能执行一次。消耗生产力、金币和信仰完成该项目。完成后，外交能见度+1，并获得伟人“李莫”和“艾妲”。
+			</Text>
+		</Replace>
+		
+
+		<!--文明特色总督相关 -->
+		<Replace Tag="LOC_GOVERNOR_REMI_NAME" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_REMI_NAME" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_TITLE" Language="zh_Hans_CN">
+			<Text>红楼船队技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>红楼船队技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				战乱的孤儿，在港口靠修复电子零件维生。被艾妲邀请加入船队后，对方将她当成自己妹妹般疼爱。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_REMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				艾妲的专属总督，技能对城市的发展和产出有很大提升。
+			</Text>
+		</Replace>
+		<!--文明特色总督技能相关 -->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_BASE_NAME" Language="zh_Hans_CN">
+			<Text>天才技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_BASE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市生产建造者、开拓者时+50%生产力，所有建造者+1劳动力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_NAME" Language="zh_Hans_CN">
+			<Text>与艾妲的相遇</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市住房+5，地块粮食产出+2</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_NAME" Language="zh_Hans_CN">
+			<Text>“妹妹”</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市科技值+10%，文化值+10%</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_NAME" Language="zh_Hans_CN">
+			<Text>与李莫的相遇</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市扩张速度增加20%，城市人口增长速度增加20%</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_NAME" Language="zh_Hans_CN">
+			<Text>“飞镖大师”</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城防攻击次数+1，所有单位战斗力+5</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_FINAL_NAME" Language="zh_Hans_CN">
+			<Text>学着喜欢自己</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_FINAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市地块魅力+4,宜居度+2</Text>
+		</Replace>
+
+		<!--文明城市名-->
+		<Replace Tag="LOC_CITY_NAME_RED_CHAMBER" Language="zh_Hans_CN">
+			<Text>"红楼"号</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GUIFANG" Language="zh_Hans_CN">
+			<Text>鬼方</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RODIN" Language="zh_Hans_CN">
+			<Text>罗登</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SILK_OASIS" Language="zh_Hans_CN">
+			<Text>丝洲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LUMEN_ZIGGURATE" Language="zh_Hans_CN">
+			<Text>万道风引所</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOUNT_AURORA" Language="zh_Hans_CN">
+			<Text>朝山</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRONWIND" Language="zh_Hans_CN">
+			<Text>铁岚城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MYRIAN_WITCHING_TOWER" Language="zh_Hans_CN">
+			<Text>巫塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACK_HOLE_OBSERVATORY_VII" Language="zh_Hans_CN">
+			<Text>第七黑洞观测站</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BANSHEE" Language="zh_Hans_CN">
+			<Text>黑龙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PHOENIX" Language="zh_Hans_CN">
+			<Text>白龙</Text>
+		</Replace>
+
+		<!--文明市民名-->
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_MALE1" Language="zh_Hans_CN">
+			<Text>大魁·佛朗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_MALE_2" Language="zh_Hans_CN">
+			<Text>李莫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_MALE_3" Language="zh_Hans_CN">
+			<Text>罗伦斯·白</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_MALE_4" Language="zh_Hans_CN">
+			<Text>拉马</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_WITCHER_FEMALE_1" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_FEMALE_2" Language="zh_Hans_CN">
+			<Text>红·葛兰特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_FEMALE_3" Language="zh_Hans_CN">
+			<Text>罗素·莫尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_WITCHER_FEMALE_4" Language="zh_Hans_CN">
+			<Text>水豚商人</Text>
+		</Replace>
+
+		<!--信仰相关-->
+		<Replace Tag="LOC_RELIGION_MYRIAN_TERRA" Language="zh_Hans_CN">
+			<Text>万道后土信仰</Text>
+		</Replace>
+
+		<!--伟人相关-->
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_WITCH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自巫塔的女巫。战争时期被称为“活体雷达”，战后却受到不公的对待。能用歌声与汜共鸣。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDA_NAME" Language="zh_Hans_CN">
+			<Text>艾妲拉姆·葛兰特</Text>
+		</Replace>	
+		<!--
+		寻找师父的见习女巫，龙脉冲突的孤儿，由于具备女巫的才能被卖往巫塔，却因为能力不足而迟迟无法送往战场，作为冗员的她，最后由女巫师父所收养，并亲手培养长大，然而师父却于她 18 岁那年，为了保护她而接受军方征召，前往寻找传说中的龙脉「黑龙」而失踪。
+		-->
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉探索者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自瀛海的龙脉探索者。渴望探寻到龙脉证明自己，光荣家族。能用龙鸣仿生器进行演奏以出入龙脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉探索者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_NAME" Language="zh_Hans_CN">
+			<Text>李莫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_ACTIVE" Language="zh_Hans_CN">
+			<Text>
+				进行演奏，打开龙门[NEWLINE]
+				（立即建造龙脉神坛建筑）[NEWLINE]
+				（该区域需要有建筑“龙脉风水机关”，且文明存在宗教）
+			</Text>
+		</Replace>
+
+		<!--巨作相关-->
+
+		<Replace Tag="LOC_GREATWORKOBJECT_STARSONG" Language="zh_Hans_CN">
+			<Text>女巫的龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_WORK_OBJECT_STARSONG_NAME" Language="zh_Hans_CN">
+			<Text>女巫的龙鸣</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORKOBJECT_LUMEN_FLOWER" Language="zh_Hans_CN">
+			<Text>龙脉植物</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_WORK_OBJECT_LUMEN_FLOWER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉植物</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_01_NAME" Language="zh_Hans_CN">
+			<Text>沙哑的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_01_QUOTE" Language="zh_Hans_CN">
+			<Text>第一次遇到艾妲时，直接对她歌声采样的声音，她的歌声有点沙哑，像是受了伤，但很好听，我永远不会忘记。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_02_NAME" Language="zh_Hans_CN">
+			<Text>壮阔的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_02_QUOTE" Language="zh_Hans_CN">
+			<Text>尽管艾妲说她喉咙受伤，不能完整换气，与我第一次遇到她时的声音不同，这次壮阔而明亮，仿佛唱出古老的神话。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_03_NAME" Language="zh_Hans_CN">
+			<Text>幽暗的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_03_QUOTE" Language="zh_Hans_CN">
+			<Text>录制的声音混乱，思绪纷杂，让人联想到到丝洲附近，到处是海盗以及中间套利的交易人船队，艾妲是如此唱出了空域间的故事。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_04_NAME" Language="zh_Hans_CN">
+			<Text>悲伤的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_04_QUOTE" Language="zh_Hans_CN">
+			<Text>艾妲这次的声音宛若走过低谷的丘壑，低语如涓滴细流，有点悲伤。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_05_NAME" Language="zh_Hans_CN">
+			<Text>灵光的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_05_QUOTE" Language="zh_Hans_CN">
+			<Text>艾妲那时的声音在幽暗中徘徊，始终没什么自信，仿佛压抑着什么。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_06_NAME" Language="zh_Hans_CN">
+			<Text>温柔的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_06_QUOTE" Language="zh_Hans_CN">
+			<Text>虽然艾妲说自己喉咙受伤，唱歌不好听，但却仿佛唱出了神明的哀愁，宛如自己亲身经验的痛苦。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_07_NAME" Language="zh_Hans_CN">
+			<Text>骄傲的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_07_QUOTE" Language="zh_Hans_CN">
+			<Text>旅行几年来，艾妲的歌进步神速，渐渐的能模仿所有听见的龙鸣。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_08_NAME" Language="zh_Hans_CN">
+			<Text>肃杀的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_08_QUOTE" Language="zh_Hans_CN">
+			<Text>艾姐的歌声变得像不稳定的讯号，更急促...更不安。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_01_NAME" Language="zh_Hans_CN">
+			<Text>魂芳白</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_01_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				品名：魂芳白[NEWLINE]
+				学名：艾妲拉姆[NEWLINE]
+				产地：行星矿业联合新伊朗[NEWLINE]
+				重量：三公斤[NEWLINE]
+				花语：“请原谅我”
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_02_NAME" Language="zh_Hans_CN">
+			<Text>魂芳白</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_02_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				品名：日红[NEWLINE]
+				学名：莫里海英[NEWLINE]
+				产地：瀛海进口[NEWLINE]
+				耐旱耐湿，然花季短促，重视土壤混合营养浓度，不容易开花。
+			</Text>
+		</Replace>
+
+		
+
+
+
+
+	</LocalizedText>
+</GameData>

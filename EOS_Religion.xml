@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Carzit-->
+<!-- DateCreated: 1/28/2024 2:26:52 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="RELIGION_MYRIAN_TERRA" Kind="KIND_RELIGION"/>
+	</Types>
+	<Religions>
+		<Row>
+			<ReligionType>RELIGION_MYRIAN_TERRA</ReligionType>
+			<Name>LOC_RELIGION_MYRIAN_TERRA</Name>
+			<IconString>MT</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_9</Color>
+		</Row>
+	</Religions>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_EDA" ReligionType="RELIGION_MYRIAN_TERRA"/>
+	</FavoredReligions>
+
+
+</GameData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Governors -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 1/29/2024 9:10:08 PM -->
+<GameData>
+	<Types>
+		<Row Type="GOVERNOR_REMI" Kind="KIND_GOVERNOR"/>
+		
+		<Row Type="GOVERNOR_PROMOTION_REMI_BASE" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_REMI_LEFT1" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_REMI_LEFT2" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_REMI_RIGHT1" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_REMI_RIGHT2" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_REMI_FINAL" Kind="KIND_GOVERNOR_PROMOTION"/>
+		
+	</Types>
+	<!--设置总督信息：名称、图片、介绍...-->
+	<Governors>
+		<Row GovernorType="GOVERNOR_REMI" Image="IMG_GOVERNOR_REMI_328" 
+			 Name="LOC_GOVERNOR_REMI_NAME" Title="LOC_GOVERNOR_REMI_TITLE" 
+			 ShortTitle="LOC_GOVERNOR_REMI_SHORT_TITLE" Description="LOC_GOVERNOR_REMI_DESCRIPTION" 
+			 IdentityPressure="10" TransitionStrength="200" AssignCityState="false" 
+			 PortraitImage="IMG_GOVERNOR_REMI_208" PortraitImageSelected="IMG_GOVERNOR_REMI_328"
+			 TraitType="TRAIT_GOVERNOR_REMI"/>
+	</Governors>
+	
+	<!--绑定总督和总督升级类型-->
+	<GovernorPromotionSets>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_BASE"/>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_LEFT1"/>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_LEFT2"/>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_RIGHT1"/>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_RIGHT2"/>
+		<Row GovernorType="GOVERNOR_REMI" GovernorPromotion="GOVERNOR_PROMOTION_REMI_FINAL"/>
+	</GovernorPromotionSets>
+	
+	<!--定义总督升级类型-->
+	<GovernorPromotions>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_BASE" Name="LOC_GOVERNOR_PROMOTION_REMI_BASE_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_BASE_DESCRIPTION" Level="0" Column="1" BaseAbility="true"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_LEFT1" Name="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_DESCRIPTION" Level="1" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_LEFT2" Name="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_DESCRIPTION" Level="2" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_RIGHT1" Name="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_DESCRIPTION" Level="1" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_RIGHT2" Name="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_DESCRIPTION" Level="2" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_FINAL" Name="LOC_GOVERNOR_PROMOTION_REMI_FINAL_NAME" Description="LOC_GOVERNOR_PROMOTION_REMI_FINAL_DESCRIPTION" Level="3" Column="1"/>
+	</GovernorPromotions>
+	
+	<!--定义总督升级前置升级-->
+	<GovernorPromotionPrereqs>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_LEFT1" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_BASE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_RIGHT1" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_BASE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_LEFT2" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_LEFT1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_RIGHT2" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_RIGHT1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_FINAL" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_LEFT2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_FINAL" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_RIGHT2"/>
+	</GovernorPromotionPrereqs>
+
+</GameData>

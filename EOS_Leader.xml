@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Leader -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/25/2024 9:03:02 PM -->
+<GameData>
+	<Types>
+		<!--创建领袖-->
+		<Row Type="LEADER_EDA" Kind="KIND_LEADER"/>
+		
+		<!--创建领袖能力-->
+		<Row Type="TRAIT_LEADER_EDA" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<!--定义领袖相关-->
+	<Leaders>
+		<Row LeaderType="LEADER_EDA" Name="LOC_LEADER_EDA_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_EDA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_QUOTE"/>
+	</LeaderQuotes>
+
+	<!--定义领袖能力的名称和描述-->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_EDA" Name="LOC_TRAIT_LEADER_EDA_NAME" Description="LOC_TRAIT_LEADER_EDA_DESCRIPTION"/>
+	</Traits>
+	
+	<!--绑定领袖和领袖能力-->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_EDA" TraitType="TRAIT_LEADER_EDA"/>
+	</LeaderTraits>
+
+	<!--效果1 所有单位视野+2-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_EDA</TraitType>
+			<ModifierId>EDA_ADD_UNIT_SIGHT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>EDA_ADD_UNIT_SIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>EDA_ADD_UNIT_SIGHT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--效果2 所有单位移动力+1-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_EDA</TraitType>
+			<ModifierId>EDA_ADD_UNIT_MOVEMENT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>EDA_ADD_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>EDA_ADD_UNIT_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--效果3 为龙脉神坛添加自定义巨作类型槽位-->
+	<TraitModifiers>
+		<Row TraitType = "TRAIT_LEADER_EDA" 
+			 ModifierId = "EDA_STARSONG_SLOT" />
+	</TraitModifiers>
+	<Modifiers>
+		<Row ModifierId = "EDA_STARSONG_SLOT"  
+			 ModifierType = "MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId = "EDA_STARSONG_SLOT" Name = "BuildingType" Value = "BUILDING_LUMEN_ALTAR" />
+		<Row ModifierId = "EDA_STARSONG_SLOT" Name = "GreatWorkSlotType" Value = "GREATWORKSLOT_STARSONG" />
+		<Row ModifierId = "EDA_STARSONG_SLOT" Name = "Amount" Value = "1" />
+	</ModifierArguments>
+</GameData>
