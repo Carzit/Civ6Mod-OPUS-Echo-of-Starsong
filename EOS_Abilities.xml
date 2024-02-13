@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Abilities -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 2/12/2024 8:35:13 PM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_KAY_VOLAN_GUARDIAN" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Tag="CLASS_TURTLEDOVE"/>
+		<Row Type="ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Tag="CLASS_SPY"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KAY_VOLAN_GUARDIAN" Name="LOC_ABILITY_KAY_VOLAN_GUARDIAN_NAME" Description="LOC_ABILITY_KAY_VOLAN_GUARDIAN_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Name="LOC_ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES_NAME" Description="LOC_ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES_DESCRIPTION" Inactive="false"/>
+	</UnitAbilities>
+	
+	<!--亲卫之首 +6力-->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_KAY_VOLAN_GUARDIAN</UnitAbilityType>
+			<ModifierId>KAY_VOLAN_GUARDIAN</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_GUARDIAN</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_GUARDIAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--斑鸠 选择任意升级-->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES</UnitAbilityType>
+			<ModifierId>TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNLIMITED_PROMOTION_CHOICES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TURTLEDOVE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="KAY_VOLAN_GENERAL" Context="Preview" Text="LOC_KAY_VOLAN_GUARDIAN"/>
+		<Row ModifierId="KAY_VOLAN_GUARDIAN" Context="Preview" Text="LOC_KAY_VOLAN_GUARDIAN"/>
+		<Row ModifierId="TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Context="Preview" Text="LOC_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES"/>
+	</ModifierStrings>
+
+</GameData>

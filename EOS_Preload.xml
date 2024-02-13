@@ -4,6 +4,7 @@
 <!-- DateCreated: 1/31/2024 6:15:11 PM -->
 
 <GameData>
+	<!--暂时弃用-->
 	<!--创建巨作类型-->
 	<GreatWorkObjectTypes>
 		<Row GreatWorkObjectType="GREATWORKOBJECT_STARSONG"

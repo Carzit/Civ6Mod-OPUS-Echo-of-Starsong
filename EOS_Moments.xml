@@ -10,21 +10,49 @@
 			<GameDataType>DISTRICT_LUMEN</GameDataType>
 			<Texture>MOMENT_LUMEN_BUILT</Texture>
 		</Row>
-	</MomentIllustrations>
-	<MomentIllustrations>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_DISTRICT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_DISTRICT</MomentDataType>
+			<GameDataType>DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION</GameDataType>
+			<Texture>MOMENT_THOUSAND_PEAKS_ART_FOUNDATION_BUILT</Texture>
+		</Row>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_DISTRICT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_DISTRICT</MomentDataType>
+			<GameDataType>DISTRICT_MYRIAN_IGNIS_GUILD</GameDataType>
+			<Texture>MOMENT_MYRIAN_IGNIS_GUILD_BUILT</Texture>
+		</Row>
+		
 		<Row>
 			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
 			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
 			<GameDataType>BUILDING_LUMEN_TRANSMUTATION_ENGINES</GameDataType>
 			<Texture>MOMENT_LUMEN_TRANSMUTATION_ENGINES_BUILT</Texture>
 		</Row>
-	</MomentIllustrations>
-	<MomentIllustrations>
 		<Row>
 			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_BUILDING</MomentIllustrationType>
 			<MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
 			<GameDataType>BUILDING_LUMEN_ALTAR</GameDataType>
 			<Texture>MOMENT_LUMEN_ALTAR_BUILT</Texture>
+		</Row>
+
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_UNIT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_UNIT</MomentDataType>
+			<GameDataType>UNIT_KAY_VOLAN</GameDataType>
+			<Texture>MOMENT_UNIT_KAY_VOLAN</Texture>
+		</Row>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_UNIQUE_UNIT</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_UNIT</MomentDataType>
+			<GameDataType>UNIT_TURTLEDOVE</GameDataType>
+			<Texture>MOMENT_UNIT_TURTLEDOVE</Texture>
+		</Row>
+		<Row>
+			<MomentIllustrationType>MOMENT_ILLUSTRATION_GOVERNOR</MomentIllustrationType>
+			<MomentDataType>MOMENT_DATA_GOVERNOR</MomentDataType>
+			<GameDataType>GOVERNOR_REMI</GameDataType>
+			<Texture>MOMENT_GOVERNOR_REMI</Texture>
 		</Row>
 	</MomentIllustrations>
 </GameData>

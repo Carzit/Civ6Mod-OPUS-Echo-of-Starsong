@@ -5,28 +5,85 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_TURTLEDOVE" Kind="KIND_UNIT" />
+		<Row Type="UNIT_KAY_VOLAN" Kind="KIND_UNIT" />
 	</Types>
+	
 	<UnitAiInfos>
 		<Row UnitType="UNIT_TURTLEDOVE" AiType="UNITTYPE_CIVILIAN"/>
+
+		<Row UnitType="UNIT_KAY_VOLAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_KAY_VOLAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_KAY_VOLAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_KAY_VOLAN" AiType="UNITTYPE_LAND_COMBAT"/>	
 	</UnitAiInfos>
 	
 	<!--设置单位替代-->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_TURTLEDOVE" ReplacesUnitType="UNIT_SPY"/>
+		<Row CivUniqueUnitType="UNIT_KAY_VOLAN" ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
+	
+	<!--定义TAG类-->
+	<Tags>
+		<Row Tag="CLASS_TURTLEDOVE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	
 	<!--定义单位类型-->
 	<TypeTags>
 		<Row Type="UNIT_TURTLEDOVE" Tag="CLASS_SPY"/>
+		<Row Type="UNIT_TURTLEDOVE" Tag="CLASS_TURTLEDOVE"/>
+		<Row Type="UNIT_KAY_VOLAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_KAY_VOLAN" Tag="CLASS_ALL_ERAS"/>
 	</TypeTags>
 	
 	<!--设置单位参数-->
 	<Units>
-		<Row UnitType="UNIT_TURTLEDOVE" Cost="100" Maintenance="0" BaseMoves="1" BaseSightRange="5" ZoneOfControl="false" 
-			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" PromotionClass="PROMOTION_CLASS_SPY" AdvisorType="ADVISOR_TECHNOLOGY" 
-			 Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" CanCapture="False" 
-			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="75" PseudoYieldType="PSEUDOYIELD_UNIT_SPY" 
-			 IgnoreMoves="true" NumRandomChoices="3" Spy="true" TeamVisibility="true" TraitType="TRAIT_UNIT_TURTLEDOVE"/>
+		<Row UnitType="UNIT_TURTLEDOVE" 
+			 Cost="225" 
+			 Maintenance="4" 
+			 BaseMoves="1" 
+			 BaseSightRange="5"
+			 InitialLevel="2"
+			 NumRandomChoices="3"
+			 ZoneOfControl="false" 
+			 Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN" 
+			 PromotionClass="PROMOTION_CLASS_SPY" 
+			 AdvisorType="ADVISOR_TECHNOLOGY" 
+			 Name="LOC_UNIT_TURTLEDOVE_NAME" 
+			 Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" 
+			 CanCapture="false"
+			 CanRetreatWhenCaptured="true"
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
+			 CostProgressionParam1="75" 
+			 PseudoYieldType="PSEUDOYIELD_UNIT_SPY" 
+			 IgnoreMoves="true" 
+			 Spy="true" 
+			 TeamVisibility="true" 
+			 TraitType="TRAIT_UNIT_TURTLEDOVE"/>
+		
+		<Row UnitType="UNIT_KAY_VOLAN" 
+			 Cost="100"
+			 Maintenance="2" 
+			 BaseMoves="2" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="true" 
+			 Domain="DOMAIN_LAND" 
+			 Combat="40"
+			 InitialLevel="2"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 PromotionClass="PROMOTION_CLASS_KAY_VOLAN" 
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_KAY_VOLAN_NAME" 
+			 Description="LOC_UNIT_KAY_VOLAN_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD"
+			 UseMaxMeleeTrainedStrength="true"
+			 TraitType="TRAIT_UNIT_KAY_VOLAN" 
+			 PrereqTech="TECH_IRON_WORKING"/>
 	</Units>
+	
+	<TypeProperties>
+		<Row Type="UNIT_KAY_VOLAN" Name="IGNORE_PLAYER_STAT_MAX_STRENGTH" Value="true"/>
+	</TypeProperties>
 
 </GameData>

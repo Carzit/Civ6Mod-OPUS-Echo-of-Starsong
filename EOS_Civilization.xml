@@ -11,6 +11,7 @@
 		
 		<!-- 创建文明特色单位-->
 		<Row Type="TRAIT_UNIT_TURTLEDOVE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_KAY_VOLAN" Kind="KIND_TRAIT"/>
 		<!-- 创建文明特色区域-->
 		<Row Type="TRAIT_DISTRICT_LUMEN" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Kind="KIND_TRAIT"/>
@@ -39,6 +40,7 @@
 	<!-- 定义特色单位、区域、建筑、总督 的名称与描述-->
 	<Traits>
 		<Row TraitType="TRAIT_UNIT_TURTLEDOVE" Name="LOC_TRAIT_UNIT_TURTLEDOVE_NAME" Description="LOC_TRAIT_UNIT_TURTLEDOVE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_KAY_VOLAN" Name="LOC_TRAIT_UNIT_KAY_VOLAN_NAME" Description="LOC_TRAIT_UNIT_KAY_VOLAN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_DISTRICT_LUMEN" Name="LOC_TRAIT_DISTRICT_LUMEN_NAME" Description="LOC_TRAIT_DISTRICT_LUMEN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Name="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Description="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION"/>
 		<Row TraitType="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD" Name="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Description="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION"/>
@@ -55,14 +57,35 @@
 	<!-- 绑定特色与文明-->
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_UNIT_TURTLEDOVE"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_UNIT_KAY_VOLAN"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_LUMEN"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_BUILDING_LUMEN_ALTAR"/>
-		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_GOVERNOR_REMI"/>
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TraitType="TRAIT_CIVILIZATION_ECHOOFSTARSONG"/>
 	</CivilizationTraits>
+	
+	<!--设置文明出生地-->
+	<!--绑定河流-->
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" Tier="3"/>
+	</StartBiasRivers>
+	<!--绑定石头、铁、煤-->
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" ResourceType="RESOURCE_IRON" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" ResourceType="RESOURCE_COAL" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" ResourceType="RESOURCE_STONE" Tier="1"/>
+	</StartBiasResources>
+	<!--绑定树林-->
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" FeatureType="FEATURE_FOREST" Tier="2"/>
+	</StartBiasFeatures>
+	<!--绑定丘陵和山脉-->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="1"/>
+	</StartBiasTerrains>
 	
 	<!--为文明创建城市名称和市民名称-->
 	<CityNames>
@@ -95,7 +118,6 @@
 			 ForegroundImage="IMG_LOADING_FOREGROUND" 
 			 BackgroundImage="IMG_LOADING_BACKGROUND" 
 			 PlayDawnOfManAudio="0" 
-			 EraText="LOC_LOADING_INFO_LEADER_DEFAULT" 
 			 LeaderText="LOC_LOADING_INFO_LEADER_EDA"/>
 	</LoadingInfo>
 	<!--外交界面设置-->
@@ -126,6 +148,7 @@
 	</ModifierArguments>
 	
 	<!--效果2 建成龙脉的城市，忽视宗教压力-->
+	<!--移到龙脉区域效果中了-->
 
 	<!--效果3 增加2个通配符槽位-->
 	<TraitModifiers>

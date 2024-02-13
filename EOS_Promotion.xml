@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Promotion -->
+<!-- Author: C'heng -->
+<!-- DateCreated: 2/12/2024 4:45:33 PM -->
+<GameData>
+	<Types>
+		<Row Type="PROMOTION_CLASS_KAY_VOLAN" Kind="KIND_PROMOTION_CLASS"/>
+		<!--升级项目定义-->
+		<Row Type="PROMOTION_KAY_VOLAN_BASE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_KAY_VOLAN_LEFT1" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_KAY_VOLAN_LEFT2" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_KAY_VOLAN_RIGHT1" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_KAY_VOLAN_RIGHT2" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_KAY_VOLAN_FINAL" Kind="KIND_PROMOTION"/>
+	</Types>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_KAY_VOLAN" Name="LOC_PROMOTION_CLASS_KAY_VOLAN_NAME"/>
+	</UnitPromotionClasses>
+	
+	<!--升级项目表格-->
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_BASE" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_BASE_NAME" Description="LOC_PROMOTION_KAY_VOLAN_BASE_DESCRIPTION" 
+			 Level="1" Column="2" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_LEFT1" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_LEFT1_NAME" Description="LOC_PROMOTION_KAY_VOLAN_LEFT1_DESCRIPTION" 
+			 Level="2" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_LEFT2" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_LEFT2_NAME" Description="LOC_PROMOTION_KAY_VOLAN_LEFT2_DESCRIPTION" 
+			 Level="3" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_RIGHT1" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_RIGHT1_NAME" Description="LOC_PROMOTION_KAY_VOLAN_RIGHT1_DESCRIPTION" 
+			 Level="2" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_RIGHT2" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_RIGHT2_NAME" Description="LOC_PROMOTION_KAY_VOLAN_RIGHT2_DESCRIPTION" 
+			 Level="3" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+		<Row UnitPromotionType="PROMOTION_KAY_VOLAN_FINAL" 
+			 Name="LOC_PROMOTION_KAY_VOLAN_FINAL_NAME" Description="LOC_PROMOTION_KAY_VOLAN_FINAL_DESCRIPTION" 
+			 Level="4" Column="2" Specialization="" PromotionClass="PROMOTION_CLASS_KAY_VOLAN"/>
+	</UnitPromotions>
+
+	<!--升级项目前置要求-->
+	<UnitPromotionPrereqs>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_LEFT1" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_BASE"/>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_RIGHT1" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_BASE"/>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_LEFT2" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_LEFT1"/>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_RIGHT2" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_RIGHT1"/>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_FINAL" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_LEFT2"/>
+		<Row UnitPromotion="PROMOTION_KAY_VOLAN_FINAL" PrereqUnitPromotion="PROMOTION_KAY_VOLAN_RIGHT2"/>
+	</UnitPromotionPrereqs>
+	
+	<!--升级效果-->
+	
+	<!--无视树林移动减益-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_BASE</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_FOREST</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_FOREST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_FOREST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_FOREST</ModifierId>
+			<Name>Type</Name>
+			<Value>FOREST</Value>
+		</Row>
+	</ModifierArguments>
+	<!--无视丘陵移动减益-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_BASE</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_HILLS</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_HILLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_HILLS</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--无视血量减少的战力减益-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_LEFT1</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_NO_REDUCTION_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_NO_REDUCTION_DAMAGE</ModifierId>
+			<Name>NoReduction</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--回复血量增加-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT1</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_MORE_HEAL</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_MORE_HEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_MORE_HEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>KAY_VOLAN_MORE_HEAL</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--战斗力额外+15-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_LEFT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_ADD_STRENTGH</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADD_STRENTGH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADD_STRENTGH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+	</ModifierArguments>
+	<!--额外攻击次数+1-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_LEFT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--移动力+2-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_ADD_MOVEMENT</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADD_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_ADD_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<!--无视河流减益-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_RIVER</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_RIVER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_RIVER</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--无视海岸减益-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_SHORES</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_SHORES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_SHORES</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--无视悬崖减益（可攀登悬崖）-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_CLIFF_WALLS</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_CLIFF_WALLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_CLIFF_WALLS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_CLIFF_WALLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--无视控制区-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_RIGHT2</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_IGNORE_ZOC</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_ZOC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_IGNORE_ZOC</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--提供大将军光环-->
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_KAY_VOLAN_FINAL</UnitPromotionType>
+			<ModifierId>KAY_VOLAN_GENERAL</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>KAY_VOLAN_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAY_VOLAN_GENERAL</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KAY_VOLAN_GUARDIAN</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="KAY_VOLAN_ADD_STRENTGH" Context="Preview" Text="LOC_KAY_VOLAN_ADD_STRENTGH"/>
+	</ModifierStrings>
+
+
+
+
+
+</GameData>

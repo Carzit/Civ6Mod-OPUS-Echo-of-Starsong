@@ -54,4 +54,7 @@
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_REMI_FINAL" PrereqGovernorPromotion="GOVERNOR_PROMOTION_REMI_RIGHT2"/>
 	</GovernorPromotionPrereqs>
 
+	<ModifierStrings>
+		<Row ModifierId="GOVERNOR_PROMOTION_REMI_RIGHT2_EFFECT2" Context="Preview" Text="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_EFFECT2"/>
+	</ModifierStrings>
 </GameData>

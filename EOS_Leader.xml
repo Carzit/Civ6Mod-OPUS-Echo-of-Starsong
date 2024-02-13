@@ -27,6 +27,7 @@
 	<!--绑定领袖和领袖能力-->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_EDA" TraitType="TRAIT_LEADER_EDA"/>
+		<Row LeaderType="LEADER_EDA" TraitType="TRAIT_GOVERNOR_REMI"/>
 	</LeaderTraits>
 
 	<!--效果1 所有单位视野+2-->

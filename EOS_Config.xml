@@ -96,8 +96,7 @@
 			 Name="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME"
 			 Description="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION"
 			 Icon="ICON_BUILDING_LUMEN_TRANSMUTATION_ENGINES"
-			 SortIndex="4"/>
-		
+			 SortIndex="4"/>	
 		<!--龙脉神坛-->
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
 			 Type="BUILDING_LUMEN_ALTAR"
@@ -125,15 +124,27 @@
 		
 
 		<!--特色单位介绍-->
+		<!--斑鸠-->
 		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
-			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="11"/>
 		<!-- Expansion 1 Support -->
 		<Row Domain="Players:Expansion1_Players" 
 			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
-			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="11"/>
 		<!-- Expansion 2 Support -->
 		<Row Domain="Players:Expansion2_Players" 
 			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA" 
-			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="10"/>
+			 Type="UNIT_TURTLEDOVE" Name="LOC_UNIT_TURTLEDOVE_NAME" Description="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Icon="ICON_UNIT_TURTLEDOVE" SortIndex="11"/>
+		<!--大魁·佛朗-->
+		<Row CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="UNIT_KAY_VOLAN" Name="LOC_UNIT_KAY_VOLAN_NAME" Description="LOC_UNIT_KAY_VOLAN_DESCRIPTION" Icon="ICON_UNIT_KAY_VOLAN" SortIndex="10"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="UNIT_KAY_VOLAN" Name="LOC_UNIT_KAY_VOLAN_NAME" Description="LOC_UNIT_KAY_VOLAN_DESCRIPTION" Icon="ICON_UNIT_KAY_VOLAN" SortIndex="10"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ECHOOFSTARSONG" LeaderType="LEADER_EDA"
+			 Type="UNIT_KAY_VOLAN" Name="LOC_UNIT_KAY_VOLAN_NAME" Description="LOC_UNIT_KAY_VOLAN_DESCRIPTION" Icon="ICON_UNIT_KAY_VOLAN" SortIndex="10"/>
 	</PlayerItems>
 </GameData>

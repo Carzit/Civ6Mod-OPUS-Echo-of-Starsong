@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EOS_Text -->
+<!-- Author: Carzit -->
+<!-- DateCreated: 1/26/2024 8:31:34 PM -->
+<GameData>
+	<LocalizedText>
+		<!--文明相关-->
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_NAME" Language="zh_Hans_CN">
+			<Text>万道诸神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始拥有占星术科技。拥有“龙脉”区域的城市不会受到其他文明的宗教压力。給予2个额外通配符政策槽。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EDA_NAME" Language="zh_Hans_CN">
+			<Text>红楼船组</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				所有单位视野+2，移动力+1。[NEWLINE]
+				拥有一位专属总督菈米亚。[NEWLINE]
+				完成市政“法典”后获得伟人“李莫”，完成项目“水獭商人与龙脉情报”后获得伟人“艾妲”。[NEWLINE]
+				伟人“李莫”可以在建有“龙脉风水机关”的“龙脉”区域激活龙鸣仿声器打开龙门，完成建筑“龙脉神坛”建造。[NEWLINE]
+				伟人“艾妲拉姆·葛兰特”，能在建有“龙脉神坛”的“龙脉”区域进行歌唱，创作巨作“女巫的龙鸣”。[NEWLINE]
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_QUOTE"   Language="zh_Hans_CN" >
+			<Text>
+				这一切……如果没有你，[NEWLINE]
+				追求又有什么意义？[NEWLINE]
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ECHOOFSTARSONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				那几年间与艾妲一起，我们将探索过的龙脉，陆续从星图间点出。[NEWLINE]
+				太乙垂怜，感谢龙脉让我与女巫相伴。直到今天，我依然很怀念那些时光。[NEWLINE]
+				「只要你持续追求龙脉，你迟早会遇见他/她」
+
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ECHOOFSTARSONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				“不管需要多少年，我都要再见妳一面”。[NEWLINE]
+				因龙脉相遇的两人，踏上注定分离的冒险。[NEWLINE]
+				这一次，让我们为相遇而歌。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				寻找师父的见习女巫，龙脉冲突的孤儿，由于具备女巫的潜能被卖往巫塔，却因为能力不足而迟迟无法送往战场，作为冗员的她，最后由女巫师父所收养，并亲手培养长大，然而师父却于她18岁那年，为了保护她而接受军方征召，前往寻找传说中的龙脉「黑龙」而失踪。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				「呜……太好了……[NEWLINE]
+				  照你吩咐的……我终于成为了自己……[NEWLINE]
+				  不服务任何人，只为内心，[NEWLINE]
+				  只为自己……[NEWLINE]
+				  这就是你說的新生代女巫吗……[NEWLINE]
+				  一定得是这么难过的事吗……」
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				看到了吗?[NEWLINE]
+				这里与你的故乡不同[NEWLINE]
+				一年四季，总是开满花
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>
+				我……会很想……[NEWLINE]
+				如果是你說的，只要是你說的。[NEWLINE]
+				我回来了，艾妲。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_NAME" Language="zh_Hans_CN">
+			<Text>龙脉常歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>艾妲领导的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ECHOOFSTARSONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>红楼船组</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_EDA_NAME" Language="zh_Hans_CN">
+			<Text>艾妲</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_EDA_QUOTE" Language="zh_Hans_CN">
+			<Text>你会想看花海吗？海喔，像海一样</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_EDA" Language="zh_Hans_CN">
+			<Text>
+				如果有那么一天，红楼有机会离开群山，旅行回我的家乡。[NEWLINE]
+				我一定会带你去看看，那我心爱的地方。[NEWLINE]
+				与你的故乡不同，那里一年四季……总是开满花。
+			</Text>
+		</Replace>
+		
+		<!--文明特色单位相关-->
+		<Replace Tag="LOC_UNIT_TURTLEDOVE_NAME" Language="zh_Hans_CN">
+			<Text>斑鸠</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_TURTLEDOVE_NAME" Language="zh_Hans_CN">
+			<Text>斑鸠</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TURTLEDOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>龙脉常歌特色间谍单位。初始拥有1次[ICON_Promotion]升级。升级时可以从任意升级选项中进行选择</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_TURTLEDOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>龙脉常歌特色间谍单位。初始拥有1次[ICON_Promotion]升级。升级时可以从任意升级选项中进行选择</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TURTLEDOVE_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>矿业联合行星商业议会的要人，玩世不恭的他因为接触暗网，巧遇同为黑客的菈米亚，受她影响的他因此见证了矿联的各种恶行，终于对自己的贵族身份感到惭愧，全心投入反对运动，与家族抗衡。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_KAY_VOLAN_NAME" Language="zh_Hans_CN">
+			<Text>大魁·佛朗</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_KAY_VOLAN_NAME" Language="zh_Hans_CN">
+			<Text>大魁·佛朗</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KAY_VOLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色近战单位，替代剑客。不需要耗费[ICON_RESOURCE_IRON]铁资源。基础[ICON_Strength]战斗力等于城市曾生产之最强单位的战斗力。
+				拥有独特的升级树。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_KAY_VOLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色近战单位，替代剑客。不需要耗费[ICON_RESOURCE_IRON]铁资源。基础[ICON_Strength]战斗力等于城市曾生产之最强单位的战斗力。
+				拥有独特的升级树。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KAY_VOLAN_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				负责保护李莫的亲卫，培养不受疼爱的李莫长大，间接取代了父亲的角色，是李莫生命中唯一会撒娇与依赖的人，当李莫因为被家族责难陷入危机时，决定背叛家族带着对方离去。
+			</Text>
+		</Replace>
+		
+		<!--文明特色单位升级相关-->
+		<Replace Tag="LOC_PROMOTION_CLASS_KAY_VOLAN_NAME" Language="zh_Hans_CN">
+			<Text>鸢家亲卫 大魁·佛朗</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_BASE_NAME" Language="zh_Hans_CN">
+			<Text>瀛海流亡者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_BASE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视树林、丘陵地形的移动力减益</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_LEFT1_NAME" Language="zh_Hans_CN">
+			<Text>武人</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_LEFT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视生命值减少带来的战力减益</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_RIGHT1_NAME" Language="zh_Hans_CN">
+			<Text>家人</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_RIGHT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生命值回复增加</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_LEFT2_NAME" Language="zh_Hans_CN">
+			<Text>瀛海刃“千里” </Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_LEFT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+15[ICON_Strength]战斗力。攻击后可移动，若有剩余移动力则可额外攻击1次。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_RIGHT2_NAME" Language="zh_Hans_CN">
+			<Text>太空船“鲲” </Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_RIGHT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2[ICON_Movement]移动力。无视河流、海岸减益，无视悬崖和敌方单位控制区。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_FINAL_NAME" Language="zh_Hans_CN">
+			<Text>亲卫之首 </Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KAY_VOLAN_FINAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所有单位提供+6[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<!--文明特色单位能力相关-->
+		<Replace Tag="LOC_ABILITY_KAY_VOLAN_GUARDIAN_NAME" Language="zh_Hans_CN">
+			<Text>亲卫之首</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KAY_VOLAN_GUARDIAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所有单位提供+6[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_KAY_VOLAN_GUARDIAN" Language="zh_Hans_CN">
+			<Text>亲卫之首提供的额外[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_KAY_VOLAN_ADD_STRENTGH" Language="zh_Hans_CN">
+			<Text>瀛海刃“千里” +15[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES_NAME" Language="zh_Hans_CN">
+			<Text>总理事</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>升级时可以从任意升级选项中进行选择</Text>
+		</Replace>
+		<Replace Tag="LOC_TURTLEDOVE_UNLIMITED_PROMOTION_CHOICES" Language="zh_Hans_CN">
+			<Text>总理事 升级时可以从任意升级选项中进行选择</Text>
+		</Replace>
+		
+		
+		
+
+		<!--文明特色区域相关-->
+		<!--龙脉-->
+		<Replace Tag="LOC_DISTRICT_LUMEN_NAME" Language="zh_Hans_CN">
+			<Text>龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_LUMEN_NAME" Language="zh_Hans_CN">
+			<Text>龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代圣地。建造费用更低且不受人口限制。
+				不再从树林获得相邻加成，但从山脉或自然奇观获得更多相邻加成。
+				为相邻的学院提供2点[icon_SCIENCE]、为相邻的群山艺术基金会提供2点[icon_CULTURE]、为相邻的万道烛龙商会提供2点[icon_GOLD]、为相邻的工业区提供4点[icon_PRODUCTION]。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_LUMEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代圣地。建造费用更低且不受人口限制。
+				不再从树林获得相邻加成，但从山脉或自然奇观获得更多相邻加成。为相邻的区域提供大量相邻加成。
+				每回合给予2点[ICON_GreatProphet]大预言家点数和2点[ICON_GreatMusician]大音乐家点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LUMEN_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				传说万年前，太阳神随烈炎降世。[NEWLINE]
+				它的火焰熄灭后，残留于小行星的岩壁之间。[NEWLINE]
+				这种异常的蓝色能量，被称为「龙脉」。[NEWLINE]
+				龙脉的流动永不止息，化为岩壁间冰蓝的涌流。[NEWLINE]
+				最终催生了古老的文明「万道」
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LUMEN_CHAPTER_HISTORY_PARA_2"   Language="zh_Hans_CN" >
+			<Text>
+				神话中的烛龙的火焰熄灭后，冰蓝的魂魄成为「龙脉」，而流转不停的龙脉则化为万道诸神。[NEWLINE]
+				却因为无法驾驭烛龙的能量，诸神随时都会被吞噬燃烧，陷入苦难。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LUMEN_CHAPTER_HISTORY_PARA_3"   Language="zh_Hans_CN" >
+			<Text>
+				万道神话中，「乙皇」是太阳神烛龙烈焰创世后，余留的一团星火，是仅次烛龙的最高神。[NEWLINE]
+				随侍烛龙漂泊亿万年的乙皇，听闻诸神为体内火焰所苦，于心不忍，决心告知如何善用龙脉的能量，因而降世。
+			</Text>
+		</Replace>
+		<!--群山艺术基金会-->
+		<Replace Tag="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Language="zh_Hans_CN">
+			<Text>群山艺术基金会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_NAME" Language="zh_Hans_CN">
+			<Text>群山艺术基金会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代剧院广场。建造费用更低，建成后奖励2名[ICON_Envoy]使者。[NEWLINE]
+				每个相邻市中心为其提供1点[ICON_Culture]。每个相邻区域为其提供1点[ICON_Culture]。每个相邻奇观和为其提供2点[ICON_Culture]文化值加成。[NEWLINE]
+				可在解锁相应市政后执行特色项目“龙脉长歌·上”、“龙脉长歌·中”和“龙脉长歌·下”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代剧院广场。建造费用更低，建成后奖励2名[ICON_Envoy]使者。[NEWLINE]
+				每回合给予2点[ICON_GreatWriter]大作家点数和2点[ICON_GreatArtist]大艺术家点数，但不提供[ICON_GreatMusician]大音乐家点数。[NEWLINE]
+				可在解锁相应市政后执行特色项目“龙脉长歌·上”、“龙脉长歌·中”和“龙脉长歌·下”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				建立基金会的罗登家族，是早年第一个于群山发现龙脉的人，他们通过销售矿权致富，成为著名的探险家族。[NEWLINE]
+				他们人马遍及群山，以推动与保存万道文化艺术为己任，为此推出的歌剧「龙脉长歌」更是群山民间热爱的著名歌剧。
+			</Text>
+		</Replace>	
+		<!--万道烛龙商会-->
+		<Replace Tag="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>万道烛龙商会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>万道烛龙商会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代商业中心。建造费用更低，建成后奖励1条[ICON_TradeRoute]贸易路线。[NEWLINE]
+				可执行特色项目“水獭商人与龙脉情报”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_MYRIAN_IGNIS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色区域，替代商业中心。建造费用更低，建成后奖励1条[ICON_TradeRoute]贸易路线。[NEWLINE]
+				每回合给予2点[ICON_GreatMerchant]大商人点数。[NEWLINE]
+				可执行特色项目“水獭商人与龙脉情报”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MYRIAN_IGNIS_GUILD_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				主持烛龙信仰的万道烛龙商会，是小行星带最大的宗教与商业势力，更是龙脉商品走私的大本营，来到这里，无非希望销赃手中的龙脉货物。[NEWLINE]
+				但那时我们来到这里的原因，却有点不太一样。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MYRIAN_IGNIS_GUILD_CHAPTER_HISTORY_PARA_2"   Language="zh_Hans_CN" >
+			<Text>
+				由于龙脉冲突的影响，废墟般的小行星带是矿业联合放弃治理的地方，某些场所更由于其交易的特殊性，成为地下势力，万道烛龙商会活跃的地盘。[NEWLINE]
+				有人谣传他们一边招待矿业联合的军官，一边拿赚到的钱转手投资反抗矿业联合的势力，是黑白通吃的群山之影。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MYRIAN_IGNIS_GUILD_CHAPTER_HISTORY_PARA_3"   Language="zh_Hans_CN" >
+			<Text>
+				谣传商会组成的元老，曾是龙脉冲突时期，星环自由战线的运输队，却因为烛龙的恒星闪焰瘫痪引擎，让他们躲过最后的战场。[NEWLINE]
+				战后转为生意组织，并尊拯救性命的烛龙为主神，透过对航线的熟悉，在小行星带间协助物资的运送，对群山复兴功不可没
+			</Text>
+		</Replace>
+		
+		<!--文明特色区域相邻加成-->
+		<Replace Tag="LOC_DISTRICT_NATURALWONDER_LUMEN_FAITH" Language="zh_Hans_CN">
+			<Text>+4 [icon_FAITH] 来自相邻自然奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAIN_LUMEN_FAITH" Language="zh_Hans_CN">
+			<Text>+2 [icon_FAITH] 来自相邻山脉单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_SCIENCE" Language="zh_Hans_CN">
+			<Text>+2 [icon_SCIENCE]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_CULTURE" Language="zh_Hans_CN">
+			<Text>+2 [icon_CULTURE]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_GOLD" Language="zh_Hans_CN">
+			<Text>+2 [icon_GOLD]来自相邻的龙脉</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LUMEN_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+4 [icon_PRODUCTION]来自相邻的龙脉</Text>
+		</Replace>
+		
+		<!--文明特色建筑相关 -->
+		<!--龙脉风水机关-->
+		<Replace Tag="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" Language="zh_Hans_CN">
+			<Text>龙脉风水机关</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_NAME" Language="zh_Hans_CN">
+			<Text>龙脉风水机关</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代神社。可用信仰购买。额外提供[icon_PRODUCTION]和[ICON_GreatEngineer]大工程师点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_TRANSMUTATION_ENGINES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代神社。可用信仰购买。提供2点[icon_FAITH]和2点[icon_PRODUCTION]。每回合给予1点[ICON_GreatProphet]大预言家点数和2点[ICON_GreatEngineer]大工程师点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_TRANSMUTATION_ENGINES_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				龙阀的谱面宛若小型的龙门，万道利用它导引汜的流动，相关的装置被现代人称为「龙脉风水机关」。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_TRANSMUTATION_ENGINES_CHAPTER_HISTORY_PARA_2"   Language="zh_Hans_CN" >
+			<Text>
+				「水生而风动，风动而龙鸣。」[NEWLINE]
+				「汜」异常安定，加热也不会变化，却会对特定声音的频率反应，由液体质变为气体，并发出怒吼般的声响，这种异常的过程被称为「风转」，也被称为「龙鸣」。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_TRANSMUTATION_ENGINES_CHAPTER_HISTORY_PARA_3"   Language="zh_Hans_CN" >
+			<Text>
+				考古的研究指出，万道的神明如果修为不足时，必须倚靠龙鸣箱强化歌声，才能进出龙门，这一特性大大降低了现代龙脉探勘的难度。
+			</Text>
+		</Replace>
+		<!--龙脉神坛-->
+		<Replace Tag="LOC_BUILDING_LUMEN_ALTAR_NAME" Language="zh_Hans_CN">
+			<Text>龙脉神坛</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_ALTAR_NAME" Language="zh_Hans_CN">
+			<Text>龙脉神坛</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMEN_ALTAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代寺庙。“神学”市政解锁。文明没有宗教时无法建造，且建造需耗费大量[icon_PRODUCTION]生产力或[icon_FAITH]信仰。解锁“自然历史”市政后，可执行特色项目“万道神话研究”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_LUMEN_ALTAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				龙脉常歌特色建筑，替代寺庙。文明没有宗教时无法建造，且建造需耗费大量[icon_PRODUCTION]生产力或[icon_FAITH]信仰。解锁“自然历史”市政后，可执行特色项目“万道神话研究”。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_ALTAR_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
+			<Text>
+				「十山诸神尊乙皇命，建八十八龙脉神殿，并令众道行歌，引气延命。」[NEWLINE]
+				乙皇降世拯救众生于火焰之苦后，挑选了十位左右手，分封群山十大行星，统称十山诸神，并令诸神广寻龙脉，四处立殿，终于造就群山龙脉的盛状。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_ALTAR_CHAPTER_HISTORY_PARA_2"   Language="zh_Hans_CN" >
+			<Text>
+				后土是掌握龙脉能量的歌神，是除了十山诸神外，乙皇第一位授与歌法的神明，她的歌声能引导龙脉的流动，为土地带来生命，行经之处往往为花所覆盖。[NEWLINE]
+				后土依乙皇之命，将导引龙脉的歌法赐予十山诸神以外的众卒，使之成为能歌的「道」，是为万道起源，龙脉帝国之始。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMEN_ALTAR_CHAPTER_HISTORY_PARA_3"   Language="zh_Hans_CN" >
+			<Text>
+				后土歌殿已成，二向门开[NEWLINE]
+				吾将行歌，引河外龙脉[NEWLINE]
+				穿二向，入烛龙之口[NEWLINE]
+				愿烛龙食之，龙脉丰之。[NEWLINE]
+				[NEWLINE]
+				吾将以歌驭烛龙之炎[NEWLINE]
+				只求乙皇赐福，万道常在。[NEWLINE]
+				[NEWLINE]
+				愿歌一轮，献河外三百龙脉予烛龙[NEWLINE]
+				烛龙轰鸣，已故众道再起。[NEWLINE]
+				[NEWLINE]
+				愿歌二轮，献河外五千龙脉予烛龙[NEWLINE]
+				烛龙轰鸣，众道不死续命。
+			</Text>
+		</Replace>
+		
+		<!--文明项目相关-->
+		<!--万道神话研究-->
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_NAME" Language="zh_Hans_CN">
+			<Text>万道神话研究</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>万道神话研究</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MYRIAN_MYTHOLOGY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目，每回合提供大量[ICON_Faith]信仰，完成后提供一件遗物。[NEWLINE]
+				 [NEWLINE]
+				乙皇面对万道帝国晚期，为延万道国祚，令后土行歌引导龙脉，此举触怒了烛龙，它警告诸神，若不停止，将会有天罚降临，然而乙皇无视烛龙，与支持烛龙的神明陷入战争。[NEWLINE]
+				天地战争最后，乙皇胜出，并亲手摧毁了支持烛龙的六山诸神，烛龙愤而降世，天火喷发，诸神随火焰之风吹飞，消散于遥远的星辰间。[NEWLINE]
+				万道相关的神话到此结束，但群山人都相信，这些散落于群星间的诸神，它们的灵魂镶嵌于星群间，与土混合，最终成人，是为人类之始。[NEWLINE]
+			</Text>
+		</Replace>
+		<!--水豚商人与龙脉情报-->
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_NAME" Language="zh_Hans_CN">
+			<Text>水豚商人与龙脉情报</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>水豚商人与龙脉情报</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目。只能执行一次。消耗[icon_PRODUCTION]生产力、[icon_GOLD]金币和[icon_FAITH]信仰完成该项目。完成后，外交能见度+1，并获得伟人“艾妲”。[NEWLINE]
+				 [NEWLINE]
+				二向无常，无往而遇。二向无常，遇而无往。
+			</Text>
+		</Replace>
+		<!--龙脉长歌·上-->
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌上部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌上部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目。只能执行一次。完成后，每回合的[ICON_GreatPerson]伟人点数+30%。花费[icon_GOLD]金币、[icon_FAITH]信仰赞助伟人时的花费减少25% [NEWLINE]
+				[NEWLINE]
+				龙脉长歌是罗登家族搜集大量考古数据后，杜撰的神明爱情歌剧。[NEWLINE]
+				上部故事是，乙皇于烛龙的星火诞生后，为烛龙授命，于虚空看望群山，漂泊亿万年为孤独折磨，一日却为某个声音吸引:[NEWLINE]
+				「有歌的地方，你就会找到我。」[NEWLINE]
+				那是神明之一的后土，遥望乙皇的她，渴望用歌拯救对方，终于乙皇为她降世，彼此相恋，建立了万道帝国。
+			</Text>
+		</Replace>
+		<!--龙脉长歌·中-->
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌中部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌中部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目。只能执行一次。完成后，生产单位时[icon_PRODUCTION]生产力+100%，文明将不会产生厌战情绪。但所有城市的忠诚度-10。[NEWLINE]
+				[NEWLINE]
+				故事中部，由于后土的歌声使龙脉不灭，众道不死，破坏了烛龙的法则，恐惧天罚的六位诸神叛变，杀后土而献烛龙，引爆天地战争。[NEWLINE]
+				我记得艾妲看完后，始终呢喃着后土死前，对乙皇的话语:[NEWLINE]
+				「若来世再遇，就找一个无人的行星生活，我会将花种满山谷，为你而歌，老死方休。」[NEWLINE]
+				而我只记得艾妲的侧脸。
+			</Text>
+		</Replace>
+		<!--龙脉长歌·下-->
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌下部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>龙脉长歌下部</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				基于区域的项目。只能执行一次。完成后，取消城市忠诚度减益并使所有我方城市始终忠诚。免费赠送3项科技、3项市政。 [NEWLINE]
+				[NEWLINE]
+				故事最后，乙皇成功消灭了杀害后土的诸神，并试图用龙脉生长的花卉让后土复活。[NEWLINE]
+				然而子民被杀，愤怒的烛龙却警告乙皇，若复活后土，会将群山用天火燃尽。[NEWLINE]
+				乙皇不允，反将爱人的尸首藏于大荒，送离群山，他留下最后的话语，目送后土于虚空离去。[NEWLINE]
+				「花开有时，来世再遇。」[NEWLINE]
+				此后天火爆发，乙皇被风暴吹飞，从此消散于群星间。
+			</Text>
+		</Replace>
+		
+
+		<!--文明特色总督相关 -->
+		<Replace Tag="LOC_GOVERNOR_REMI_NAME" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_REMI_NAME" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_TITLE" Language="zh_Hans_CN">
+			<Text>红楼船队技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>红楼船队技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_REMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				战乱的孤儿，在港口靠修复电子零件维生。被艾妲邀请加入船队后，对方将她当成自己妹妹般疼爱。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_REMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				艾妲的专属总督，技能对城市的发展和产出有很大提升。
+			</Text>
+		</Replace>
+		<!--文明特色总督技能相关 -->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_BASE_NAME" Language="zh_Hans_CN">
+			<Text>天才技师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_BASE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市生产建造者、开拓者时+50%生产力，所有建造者+1劳动力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_NAME" Language="zh_Hans_CN">
+			<Text>与艾妲的相遇</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市住房[ICON_Housing]+5，地块粮食产出[ICON_Food]+2</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_NAME" Language="zh_Hans_CN">
+			<Text>“妹妹”</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_LEFT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市[icon_SCIENCE]科技值+10%，[icon_CULTURE]文化值+10%</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_NAME" Language="zh_Hans_CN">
+			<Text>与李莫的相遇</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市扩张速度增加20%，城市人口增长速度增加20%</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_NAME" Language="zh_Hans_CN">
+			<Text>“飞镖大师”</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城防攻击次数[ICON_Ranged_Strength]+1，所有单位战斗力[ICON_Strength]+5</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_EFFECT2" Language="zh_Hans_CN">
+			<Text>来自总督菈米亚“飞镖大师” +5[ICON_Strength]</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_FINAL_NAME" Language="zh_Hans_CN">
+			<Text>学着喜欢自己</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_FINAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>菈米亚所在城市地块魅力+4，宜居度[ICON_Amenities]+2</Text>
+		</Replace>
+
+		<!--文明城市名-->
+		<Replace Tag="LOC_CITY_NAME_RED_CHAMBER" Language="zh_Hans_CN">
+			<Text>"红楼"号</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GUIFANG" Language="zh_Hans_CN">
+			<Text>鬼方</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RODIN" Language="zh_Hans_CN">
+			<Text>罗登</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SILK_OASIS" Language="zh_Hans_CN">
+			<Text>丝洲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LUMEN_ZIGGURATE" Language="zh_Hans_CN">
+			<Text>万道风引所</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOUNT_AURORA" Language="zh_Hans_CN">
+			<Text>朝山</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRONWIND" Language="zh_Hans_CN">
+			<Text>铁岚城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MYRIAN_WITCHING_TOWER" Language="zh_Hans_CN">
+			<Text>巫塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACK_HOLE_OBSERVATORY_VII" Language="zh_Hans_CN">
+			<Text>第七黑洞观测站</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BANSHEE" Language="zh_Hans_CN">
+			<Text>黑龙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PHOENIX" Language="zh_Hans_CN">
+			<Text>白龙</Text>
+		</Replace>
+
+		<!--文明市民名-->
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_MALE1" Language="zh_Hans_CN">
+			<Text>大魁·佛朗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_MALE2" Language="zh_Hans_CN">
+			<Text>李莫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_MALE3" Language="zh_Hans_CN">
+			<Text>罗伦斯·白</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_MALE4" Language="zh_Hans_CN">
+			<Text>拉马</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE1" Language="zh_Hans_CN">
+			<Text>菈米亚·多伦多</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE2" Language="zh_Hans_CN">
+			<Text>红·葛兰特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE3" Language="zh_Hans_CN">
+			<Text>罗素·莫尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE1" Language="zh_Hans_CN">
+			<Text>水豚商人</Text>
+		</Replace>
+
+		<!--信仰相关-->
+		<Replace Tag="LOC_RELIGION_MYRIAN_TERRA" Language="zh_Hans_CN">
+			<Text>万道后土信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYRIAN_TERRA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				作为万道土地与歌的神祇，后土透过歌法引导汜的流动，赋予土地生命，是笃信歌法的女巫信仰的主神。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYRIAN_TERRA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				巫塔记载中，群山数十年就会有一位女巫突然无法唱歌，她喉咙会浮现六个点的奇妙胎记，之后就会慢慢丧失唱歌的能力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYRIAN_TERRA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				后土曾是民间最受景仰的神明之一，但因为龙脉冲突让多数人对女巫反感，除了巫塔外，多数后土殿皆已拆除。
+			</Text>
+		</Replace>
+
+		<!--伟人相关-->
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_WITCH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自巫塔的女巫。战争时期被称为“活体雷达”，战后却受到不公的对待。能用歌声与汜共鸣。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDA_NAME" Language="zh_Hans_CN">
+			<Text>艾妲拉姆·葛兰特</Text>
+		</Replace>	
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉勘探者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ECHOOFSTARSONG_LUMEN_EXPLORER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自瀛海的龙脉勘探者。渴望探寻到龙脉证明自己，光荣家族。能用龙鸣仿生器进行演奏以打开龙门。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_ECHOOFSTARSONG_LUMEN_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉勘探者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_NAME" Language="zh_Hans_CN">
+			<Text>李莫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JUN_LEE_ACTIVE" Language="zh_Hans_CN">
+			<Text>
+				进行演奏，打开龙门[NEWLINE]
+				（立即建造龙脉神坛建筑）[NEWLINE]
+				（该区域需要有建筑“龙脉风水机关”，且文明存在宗教）
+			</Text>
+		</Replace>
+
+		<!--巨作相关-->
+		<!--因为显示问题，所有Quote暂时弃用-->
+		<Replace Tag="LOC_GREATWORKOBJECT_STARSONG" Language="zh_Hans_CN">
+			<Text>女巫的龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_WORK_OBJECT_STARSONG_NAME" Language="zh_Hans_CN">
+			<Text>女巫的龙鸣</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORKOBJECT_LUMEN_FLOWER" Language="zh_Hans_CN">
+			<Text>龙脉植物</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_WORK_OBJECT_LUMEN_FLOWER_NAME" Language="zh_Hans_CN">
+			<Text>龙脉植物</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_01_NAME" Language="zh_Hans_CN">
+			<Text>沙哑的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_01_QUOTE" Language="zh_Hans_CN">
+			<Text>第一次遇到艾妲时，直接对她歌声采样的声音，她的歌声有点沙哑，像是受了伤，但很好听，我永远不会忘记。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_02_NAME" Language="zh_Hans_CN">
+			<Text>壮阔的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_02_QUOTE" Language="zh_Hans_CN">
+			<Text>尽管艾妲说她喉咙受伤，不能完整换气，与我第一次遇到她时的声音不同，这次壮阔而明亮，仿佛唱出古老的神话。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_03_NAME" Language="zh_Hans_CN">
+			<Text>幽暗的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_03_QUOTE" Language="zh_Hans_CN">
+			<Text>录制的声音混乱，思绪纷杂，让人联想到到丝洲附近，到处是海盗以及中间套利的交易人船队，艾妲是如此唱出了空域间的故事。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_04_NAME" Language="zh_Hans_CN">
+			<Text>悲伤的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_04_QUOTE" Language="zh_Hans_CN">
+			<Text>艾妲这次的声音宛若走过低谷的丘壑，低语如涓滴细流，有点悲伤。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_05_NAME" Language="zh_Hans_CN">
+			<Text>灵光的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_05_QUOTE" Language="zh_Hans_CN">
+			<Text>艾妲那时的声音在幽暗中徘徊，始终没什么自信，仿佛压抑着什么。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_06_NAME" Language="zh_Hans_CN">
+			<Text>温柔的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_06_QUOTE" Language="zh_Hans_CN">
+			<Text>虽然艾妲说自己喉咙受伤，唱歌不好听，但却仿佛唱出了神明的哀愁，宛如自己亲身经验的痛苦。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_STARSONG_07_NAME" Language="zh_Hans_CN">
+			<Text>骄傲的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_07_QUOTE" Language="zh_Hans_CN">
+			<Text>旅行几年来，艾妲的歌进步神速，渐渐的能模仿所有听见的龙鸣。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATWORK_STARSONG_08_NAME" Language="zh_Hans_CN">
+			<Text>肃杀的女巫龙鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_STARSONG_08_QUOTE" Language="zh_Hans_CN">
+			<Text>艾姐的歌声变得像不稳定的讯号，更急促...更不安。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_01_NAME" Language="zh_Hans_CN">
+			<Text>魂芳白</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_01_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				品名：魂芳白[NEWLINE]
+				学名：艾妲拉姆[NEWLINE]
+				产地：行星矿业联合新伊朗[NEWLINE]
+				重量：三公斤[NEWLINE]
+				花语：“请原谅我”
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_02_NAME" Language="zh_Hans_CN">
+			<Text>魂芳白</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_LUMEN_FLOWER_02_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				品名：日红[NEWLINE]
+				学名：莫里海英[NEWLINE]
+				产地：瀛海进口[NEWLINE]
+				耐旱耐湿，然花季短促，重视土壤混合营养浓度，不容易开花。
+			</Text>
+		</Replace>
+
+		
+
+
+
+
+	</LocalizedText>
+</GameData>

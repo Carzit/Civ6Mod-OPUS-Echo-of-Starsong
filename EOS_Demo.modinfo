@@ -3,7 +3,7 @@
   <Properties>
     <Name>EOS_Demo</Name>
     <Description>This is a brief description of the mod.</Description>
-    <Created>1707489798</Created>
+    <Created>1707828683</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Authors>Carzit</Authors>
     <SpecialThanks>Hemmelfort</SpecialThanks>
@@ -14,7 +14,7 @@
       <File>EOS_Config.xml</File>
     </UpdateDatabase>
     <UpdateText id="echo_of_starsong_text">
-      <File>EOS_Text.xml</File>
+      <File>EOS_Text_zhHans.xml</File>
     </UpdateText>
     <UpdateIcons id="echo_of_starsong_icon">
       <File>EOS_Icons.xml</File>
@@ -38,12 +38,13 @@
       <File>EOS_Governors.sql</File>
       <File>EOS_GreatPeople.xml</File>
       <File>EOS_Greatworks.xml</File>
-      <File>EOS_Preload.xml</File>
       <File>EOS_Projects.xml</File>
       <File>EOS_Moments.xml</File>
+      <File>EOS_Promotion.xml</File>
+      <File>EOS_Abilities.xml</File>
     </UpdateDatabase>
     <UpdateText id="echo_of_starsong_text">
-      <File>EOS_Text.xml</File>
+      <File>EOS_Text_zhHans.xml</File>
     </UpdateText>
     <UpdateIcons id="echo_of_starsong_icon">
       <File>EOS_Icons.xml</File>
@@ -65,6 +66,7 @@
     <File>ArtDefs/FallbackLeaders.artdef</File>
     <File>ArtDefs/Units.artdef</File>
     <File>ArtDefs/Units_Great_People.artdef</File>
+    <File>EOS_Abilities.xml</File>
     <File>EOS_Buildings.xml</File>
     <File>EOS_Civilization.xml</File>
     <File>EOS_Colors.xml</File>
@@ -82,8 +84,9 @@
     <File>EOS_Moments.xml</File>
     <File>EOS_Preload.xml</File>
     <File>EOS_Projects.xml</File>
+    <File>EOS_Promotion.xml</File>
     <File>EOS_Religion.xml</File>
-    <File>EOS_Text.xml</File>
+    <File>EOS_Text_zhHans.xml</File>
     <File>EOS_Units.xml</File>
     <File>Platforms/MacOS/BLPs/CIV_EOS_DDS.blp</File>
     <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>

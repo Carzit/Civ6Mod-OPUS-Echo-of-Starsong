@@ -24,7 +24,7 @@
 			 CostProgressionParam1="50"
 			 PrereqDistrict="DISTRICT_LUMEN"
 			 RequiredBuilding="BUILDING_LUMEN_ALTAR"			 
-			 PrereqCivic="CIVIC_RECORDED_HISTORY"/>
+			 PrereqCivic="CIVIC_NATURAL_HISTORY"/>
 		<!--水豚商人与龙脉情报-->
 		<Row ProjectType="PROJECT_MEETING_OF_EDA_AND_JUN"
 			 Name="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_NAME"
@@ -35,11 +35,44 @@
 			 CostProgressionParam1="100"
 			 PrereqDistrict="DISTRICT_MYRIAN_IGNIS_GUILD"
 			 MaxPlayerInstances="1"/>
+		<!--龙脉长歌·上-->
+		<Row ProjectType="PROJECT_MELODY_OF_STARSONG_ACT1"
+			 Name="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_NAME"
+			 ShortName="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_SHORT_NAME"
+			 Description="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_DESCRIPTION"
+			 Cost="300"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="100"
+			 PrereqDistrict="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"
+			 PrereqCivic="CIVIC_DRAMA_POETRY"
+			 MaxPlayerInstances="1"/>
+		<!--龙脉长歌·中-->
+		<Row ProjectType="PROJECT_MELODY_OF_STARSONG_ACT2"
+			 Name="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_NAME"
+			 ShortName="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_SHORT_NAME"
+			 Description="LOC_PROJECT_MELODY_OF_STARSONG_ACT2_DESCRIPTION"
+			 Cost="300"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="100"
+			 PrereqDistrict="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"
+			 PrereqCivic="CIVIC_OPERA_BALLET"
+			 MaxPlayerInstances="1"/>
+		<!--龙脉长歌·下-->
+		<Row ProjectType="PROJECT_MELODY_OF_STARSONG_ACT3"
+			 Name="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_NAME"
+			 ShortName="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_SHORT_NAME"
+			 Description="LOC_PROJECT_MELODY_OF_STARSONG_ACT3_DESCRIPTION"
+			 Cost="300"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="100"
+			 PrereqDistrict="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION"
+			 PrereqCivic="CIVIC_MASS_MEDIA"
+			 MaxPlayerInstances="1"/>
 	</Projects>
 	
 	<!--项目进行时每回合产出-->
 	<Project_YieldConversions>
-		<Row ProjectType="PROJECT_MYRIAN_MYTHOLOGY" YieldType="YIELD_FAITH" PercentOfProductionRate="100"/>
+		<Row ProjectType="PROJECT_MYRIAN_MYTHOLOGY" YieldType="YIELD_FAITH" PercentOfProductionRate="-100"/>
 	</Project_YieldConversions>
 	<Project_YieldConversions>
 		<Row ProjectType="PROJECT_MEETING_OF_EDA_AND_JUN" YieldType="YIELD_GOLD" PercentOfProductionRate="-100"/>
@@ -97,6 +130,236 @@
 			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
 		</Row>
 	</ModifierArguments>
+
+	<!--龙脉长歌·上-->
+	<!--伟人点数+30% -->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT1</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_MORE_GREATPERSON_POINTS</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_MORE_GREATPERSON_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_MORE_GREATPERSON_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_MORE_GREATPERSON_POINTS</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GREAT_PEOPLE</Value>
+		</Row>
+	</ModifierArguments>
 	
+	<!--信仰购买伟人-25%-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT1</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_FAITH_CHARDE</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_FAITH_CHARDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_PATRONAGE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_FAITH_CHARDE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_FAITH_CHARDE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+	</ModifierArguments>
+	<!--金币购买伟人-25%-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT1</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_GOLD_CHARDE</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_GOLD_CHARDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_PATRONAGE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_GOLD_CHARDE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT1_LESS_GREATPERSON_GOLD_CHARDE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--龙脉长歌·中-->
+	<!--所有城市忠诚度-10-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT2</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_REDUCE_LOYALTY</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_REDUCE_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_REDUCE_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+	</ModifierArguments>
+	<!--不会产生厌战-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT2</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_NO_WAR_WEARINESS</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_NO_WAR_WEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_NO_WAR_WEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_NO_WAR_WEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--生产单位时生产力+100%-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT2</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_ADD_UNIT_PRODUCTION</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_ADD_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_ADD_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT2_ADD_UNIT_PRODUCTION</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
 	
+	<!--龙脉长歌·下-->
+	<!--忠诚度减益修正-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT3</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_LOYALTY_FIX</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_LOYALTY_FIX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_LOYALTY_FIX</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<!--城市永远忠诚-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT3</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_ALWAYS_LOYAL</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_ALWAYS_LOYAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_ALWAYS_LOYAL</ModifierId>
+			<Name>AlwaysLoyal</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--免费赠送3项科技-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT3</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_TECHNOLOGY</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_TECHNOLOGY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_TECHNOLOGY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<!--，免费赠送3项市政-->
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_MELODY_OF_STARSONG_ACT3</ProjectType>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_CIVIC</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_CIVIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MELODY_OF_STARSONG_ACT3_GRANT_RANDOM_CIVIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
