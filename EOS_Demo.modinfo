@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="30eea8c3-52da-4e00-b4db-fd7574809cc3" version="1">
   <Properties>
-    <Name>EOS_Demo</Name>
-    <Description>This is a brief description of the mod.</Description>
-    <Created>1707828683</Created>
+    <Name>OPUS:Echo of Starsong</Name>
+    <Description>OPUS:龙脉常歌 MOD
+二向无常，无往而遇。二向无常，遇而无往。</Description>
+    <Created>1708078169</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Authors>Carzit</Authors>
     <SpecialThanks>Hemmelfort</SpecialThanks>
+    <Homepage>http://https://github.com/Carzit</Homepage>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <FrontEndActions>

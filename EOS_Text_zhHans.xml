@@ -32,6 +32,10 @@
 			</Text>
 		</Replace>
 
+		<Replace Tag="LOC_CIVINFO_ECHOOFSTARSONG_LOCATION" Language="zh_Hans_CN">
+			<Text>群山</Text>
+		</Replace>
+
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ECHOOFSTARSONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>
 				那几年间与艾妲一起，我们将探索过的龙脉，陆续从星图间点出。[NEWLINE]
@@ -126,13 +130,13 @@
 		<Replace Tag="LOC_UNIT_KAY_VOLAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				龙脉常歌特色近战单位，替代剑客。不需要耗费[ICON_RESOURCE_IRON]铁资源。基础[ICON_Strength]战斗力等于城市曾生产之最强单位的战斗力。
-				拥有独特的升级树。
+				初始拥有1次[ICON_Promotion]升级。拥有独特的升级树。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_UNIT_KAY_VOLAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				龙脉常歌特色近战单位，替代剑客。不需要耗费[ICON_RESOURCE_IRON]铁资源。基础[ICON_Strength]战斗力等于城市曾生产之最强单位的战斗力。
-				拥有独特的升级树。
+				初始拥有1次[ICON_Promotion]升级。拥有独特的升级树。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KAY_VOLAN_CHAPTER_HISTORY_PARA_1"   Language="zh_Hans_CN" >
@@ -444,7 +448,7 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_MEETING_OF_EDA_AND_JUN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				基于区域的项目。只能执行一次。消耗[icon_PRODUCTION]生产力、[icon_GOLD]金币和[icon_FAITH]信仰完成该项目。完成后，外交能见度+1，并获得伟人“艾妲”。[NEWLINE]
+				基于区域的项目。只能执行一次。消耗[icon_PRODUCTION]生产力、[icon_GOLD]金币和[icon_FAITH]信仰完成该项目。完成后，外交能见度+1，并获得伟人“艾妲拉姆·葛兰特”。[NEWLINE]
 				 [NEWLINE]
 				二向无常，无往而遇。二向无常，遇而无往。
 			</Text>
@@ -458,7 +462,7 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_MELODY_OF_STARSONG_ACT1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				基于区域的项目。只能执行一次。完成后，每回合的[ICON_GreatPerson]伟人点数+30%。花费[icon_GOLD]金币、[icon_FAITH]信仰赞助伟人时的花费减少25% [NEWLINE]
+				基于区域的项目。只能执行一次。完成后，每回合的[ICON_GreatPerson]伟人点数+30%。花费[icon_GOLD]金币、[icon_FAITH]信仰赞助伟人时的花费减少25%。 [NEWLINE]
 				[NEWLINE]
 				龙脉长歌是罗登家族搜集大量考古数据后，杜撰的神明爱情歌剧。[NEWLINE]
 				上部故事是，乙皇于烛龙的星火诞生后，为烛龙授命，于虚空看望群山，漂泊亿万年为孤独折磨，一日却为某个声音吸引:[NEWLINE]
@@ -559,7 +563,7 @@
 			<Text>“飞镖大师”</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城防攻击次数[ICON_Ranged_Strength]+1，所有单位战斗力[ICON_Strength]+5</Text>
+			<Text>城防攻击次数+1，所有单位战斗力[ICON_Strength]+5</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_REMI_RIGHT2_EFFECT2" Language="zh_Hans_CN">
 			<Text>来自总督菈米亚“飞镖大师” +5[ICON_Strength]</Text>
@@ -630,7 +634,7 @@
 		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE3" Language="zh_Hans_CN">
 			<Text>罗素·莫尔</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE1" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CITIZEN_ECHOOFSTARSONG_FEMALE4" Language="zh_Hans_CN">
 			<Text>水豚商人</Text>
 		</Replace>
 
@@ -782,6 +786,113 @@
 				产地：瀛海进口[NEWLINE]
 				耐旱耐湿，然花季短促，重视土壤混合营养浓度，不容易开花。
 			</Text>
+		</Replace>
+		
+		<!--外交-->
+		
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>二向无常，能遇到你，我觉得很幸运</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>现在...还不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>与其在原地思考，不如一步步向前迈进。那个，你愿意和我一起吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>那就这么约定了哦！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>小气...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>即使残暴的魔力在我体内肆虐着，在走向最后之前，我是不会倒下的！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>崇高而圣洁的意志不允许我们继续容忍你的行为了！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>新奇的体验，未知的事物，谢谢你。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>什么嘛...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>你的城市,是怎样的风景？我想看看，好吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>我们崇高而圣洁的意志，任何人都不能玷污！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>该死，你的荣耀呢！[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>我叫艾妲拉姆，隶属红楼船队，很高兴认识你。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>海喔，像海一样。你会想看吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>好的~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>
+				如果有那么一天，红楼有机会离开群山，旅行回我的家乡。[NEWLINE]
+				我一定会带你去看看，那我心爱的地方。[NEWLINE]
+				与你的故乡不同，那里一年四季……总是开满花。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>万道无常，日安。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>谢谢你！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>太乙在上，魂归瀛海日照</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>这是你的识别证，你准备好加入红楼船队了吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>和平，群山人都向往和平的日子。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>万道无常，你尚有代价需要清偿。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>战争带来的是痛苦。像师傅那样的矿联战争英雄，也只会被写成刽子手。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>可以哦，但是请注意矿联军方的动向。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>容我拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>我想借道你的国家前往新的地方，可以吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>我无权干涉你的军队，但是他们实在是太靠近我们了，希望你能注意到这一点</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>
+				若来世再遇,就找一个无人的行星生活,
+				我会将花种满山谷,为你而歌,老死方休。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>
+				若来世再遇,就找一个无人的行星生活,
+				我会将花种满山谷,为你而歌,老死方休。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>什么嘛……这样不可以</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_EDA_ANY" Language="zh_Hans_CN">
+			<Text>万道无常，合作愉快。</Text>
 		</Replace>
 
 		

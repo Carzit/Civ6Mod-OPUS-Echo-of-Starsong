@@ -30,6 +30,33 @@
 		<Row LeaderType="LEADER_EDA" TraitType="TRAIT_GOVERNOR_REMI"/>
 	</LeaderTraits>
 
+	<!--AI相关-->
+	<AiListTypes>
+		<Row ListType="EDA_DIPLOMANCY"/>
+		<Row ListType="EDA_CIVICS"/>
+		<Row ListType="EDA_TECH"/>
+		<Row ListType="EDA_BUILDING"/>
+		<Row ListType="EDA_DISTRICT"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="EDA_TECH" LeaderType="LEADER_EDA" System="Civics"/>
+		<Row ListType="EDA_DIPLOMANCY" LeaderType="LEADER_EDA" System="DiplomaticActions" />
+		<Row ListType="EDA_TECH" LeaderType="LEADER_EDA" System="Technologies"/>
+		<Row ListType="EDA_BUILDING" LeaderType="LEADER_EDA" System="Buildings"/>
+		<Row ListType="EDA_DISTRICT" LeaderType="LEADER_EDA" System="District"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="EDA_CIVICS" Item="CIVIC_MYSTICISM" Favored="true"/>
+		<Row ListType="EDA_CIVICS" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="EDA_TECH" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="EDA_TECH" Item="TECH_IRON_WORKING" Favored="true"/>
+		<Row ListType="EDA_BUILDING" Item="BUILDING_LUMEN_TRANSMUTATION_ENGINES" Favored="true"/>
+		<Row ListType="EDA_DISTRICT" Item="DISTRICT_LUMEN" Favored="true"/>
+		<Row ListType="EDA_DISTRICT" Item="DISTRICT_THOUSAND_PEAKS_ART_FOUNDATION" Favored="true"/>
+		<Row ListType="EDA_DISTRICT" Item="DISTRICT_MYRIAN_IGNIS_GUILD" Favored="true"/>	
+	</AiFavoredItems>
+	
+
 	<!--效果1 所有单位视野+2-->
 	<TraitModifiers>
 		<Row>

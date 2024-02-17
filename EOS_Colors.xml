@@ -6,11 +6,11 @@
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_EDA_PRIMARY</Type>
-			<Color>232,232,232,255</Color>
+			<Color>230,230,230,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_EDA_SECONDARY</Type>
-			<Color>255,255,0,255</Color>
+			<Color>255,255,255,255</Color>
 		</Row>
 
 	</Colors>

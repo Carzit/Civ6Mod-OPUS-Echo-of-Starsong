@@ -1,5 +1,5 @@
 -- EOS_GetLee
--- Author: C'heng
+-- Author: Carzit
 -- DateCreated: 2/1/2024 4:13:49 PM
 --------------------------------------------------------------
 local m_iTargetCivic = GameInfo.Civics['CIVIC_CODE_OF_LAWS'].Index
@@ -9,7 +9,11 @@ function GetJun(playerID, iCivic, bCancelled)
 	if pPlayer == nil then
         return
     end
-	if pPlayer:IsHuman() and iCivic == m_iTargetCivic then
+	local pPlayerConfig = PlayerConfigurations[playerID];
+	if pPlayerConfig == nil or pPlayerConfig:GetCivilizationTypeName() ~= 'CIVILIZATION_ECHOOFSTARSONG' then
+		return
+	end
+	if iCivic == m_iTargetCivic then
 		local pCity = pPlayer:GetCities():FindID(0)
 		local iX = pCity:GetX()
 		local iY = pCity:GetY()
